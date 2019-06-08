@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Jobs() {
-  
-}
+class Jobs extends Component {
+  state = {
+    jobs: [],
+    jobName: '',
+    jobDescription: ''
+  };
+
+  render() {
+    return (
+      <div>
+        
+      </div>
+    );
+  }
+};
 
 export default Jobs;
