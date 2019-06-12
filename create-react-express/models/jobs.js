@@ -5,7 +5,7 @@ const jobsSchema = new Schema({
   name: {type: String,
           required: true},
   description: {type: String,
-            required: true},
+          required: true},
 });
 
 const Jobs = mongoose.model('Jobs', jobsSchema);

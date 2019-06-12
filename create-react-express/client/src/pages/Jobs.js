@@ -9,8 +9,9 @@ class Jobs extends Component {
 
   render() {
     return (
-      <div>
-        
+      <div className='container'>
+        <h1>Jobs</h1>
+
       </div>
     );
   }
