@@ -1,17 +1,44 @@
 import React, { Component } from 'react';
+import api from '../utils/api';
+import {List, ListItem} from '../components/List';
 
 class Jobs extends Component {
   state = {
-    jobs: [],
-    jobName: '',
-    jobDescription: ''
+    jobs: []
   };
+
+  componentDidMount() {
+    this.showJobs();
+  }
+
+  showJobs = () => {
+    api.allJobs()
+      .then(res => this.setState({ jobs: res.data}))
+      .catch(err => console.log(err));
+  }
 
   render() {
     return (
-      <div className='container'>
-        <h1>Jobs</h1>
-
+      <div>
+        <h1>Find Your Next Job</h1>
+        {this.state.jobs.length ? (
+          <List>
+            {this.state.jobs.map(job => (
+              <ListItem key={job._id}>
+                <a href={'/jobs/' + job._id}>
+                  <h2>
+                    {job.name}
+                  </h2>
+                  <p>
+                    {job.description}
+                  </p>
+                </a>
+              </ListItem>
+            ))}
+          </List>
+        ) : (
+          <h1>No Jobs Posted</h1>
+        )}
       </div>
     );
   }
