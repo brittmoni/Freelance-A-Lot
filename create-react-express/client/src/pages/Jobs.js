@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import api from '../utils/api';
 import {List, ListItem} from '../components/List';
+import Navbar from '../components/Navbar';
 
 class Jobs extends Component {
   state = {
@@ -20,6 +21,7 @@ class Jobs extends Component {
   render() {
     return (
       <div>
+        <Navbar></Navbar>
         <h1>Find Your Next Job</h1>
         {this.state.jobs.length ? (
           <List>
