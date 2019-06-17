@@ -6,5 +6,8 @@ export default {
   },
   chooseJob: function(id) {
     return axios.get('/api/jobs/' + id);
+  },
+  deleteJob: function(id) {
+    return axios.get('/api/jobs' + id);
   }
 }
