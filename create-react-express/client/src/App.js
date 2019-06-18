@@ -5,22 +5,22 @@ import Home from './pages/Home';
 import Jobs from './pages/Jobs';
 import Post from './pages/Post';
 import Profile from './pages/Profile';
-
+// import Navbar from './components/Navbar'
 class App extends Component {
- render() {
-   return (
-     <Router>
-       <div>
-         <Switch>
-           <Route exact path='/' component={Home} />
-           <Route exact path='/jobs' component={Jobs} />
-           <Route exact path='/postjob' component={Post} />
-           <Route exact path='/profile' component={Profile} />
-         </Switch>
-       </div>
-     </Router>
-   );
- }
+  render() {
+    return (
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/jobs' component={Jobs} />
+            <Route exact path='/postjob' component={Post} />
+            <Route exact path='/profile' component={Profile} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
