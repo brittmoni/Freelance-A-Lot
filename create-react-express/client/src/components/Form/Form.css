@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.form {
+height: 250px;;
+padding: 20px; 
+margin-top: 75px; 
+margin-bottom: 75px;
+text-align: center; 
+background-color: rgb(249, 249, 249);
+}
+.h3 {
+font-size: 30px;
+font-family: Oswald, cursive;
+font-weight: bold;
+margin-bottom: 75px; 
+margin-top: 75px;
+}
+
