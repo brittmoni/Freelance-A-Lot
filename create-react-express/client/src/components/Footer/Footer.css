@@ -30,9 +30,13 @@
         color: #fff;
         width: 980px;
         text-align: center;
+        padding: 5px;
+        justify-content: center;
+        letter-spacing: 10px;
     }
     .copyright {
         text-align: center;
+        padding-top: 7px;
         color: #fff;
         text-transform: uppercase;
         width: 980px;
@@ -46,10 +50,12 @@
     width: 49%;
     Float: left;
     display:inline;
+    text-align: center;
 }
 
 .footerright {
     width: 49%;
     Float: right;
     display:inline;
+    text-align: center;
 }

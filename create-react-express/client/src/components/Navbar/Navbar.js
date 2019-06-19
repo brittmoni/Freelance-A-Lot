@@ -8,7 +8,7 @@ import "./Navbar.css";
 const Navbar = props =>
 <navbar class="navbar navbar-expand-lg navbar-light bg-light fixed-top animated fadeIn delay-1s">
             <div class="container">
-                <div id="navbar-brand"  href="#">Freelance-a-Lot</div>
+                <div id="navbar-brand"> Freelance-a-Lot</div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

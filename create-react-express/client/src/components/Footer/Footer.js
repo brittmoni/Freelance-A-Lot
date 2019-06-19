@@ -35,24 +35,20 @@ const Footer = props =>
 
             </div>
             </div>
-            <div class="row">
-                <div class="social">
-                    <div class="col-md-12">
-
-                        <Link to="/">
-                            <img alt="Freelance-A-Lot logo" src="https://github.com/urfavoriteauthor/Second_project" />
-                        </Link>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="copyright">
+            <div className="row">
+               <div className="social">
+                    <div className="col-md-12">
+                        <i className="fa fa-linkedin fa-2x"></i>
+                        <i className="fa fa-github fa-2x"></i>
+                        <i className="fa fa-envelope-square fa-2x"></i>
+                        <br></br>
+                        <div class="copyright">
                         © 2019 Freelance-A-Lot </div>
                 </div>
-            </div>
-        </div>
-
+                        </div>
+                       </div> 
+                    
+                </div>
     </footer>
 
 
