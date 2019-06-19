@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const jobController = require('../../controllers/jobController');
+const jobController = require('../../client/controllers/jobController');
 
 router.route('/jobs')
   .get(jobController.findAll)

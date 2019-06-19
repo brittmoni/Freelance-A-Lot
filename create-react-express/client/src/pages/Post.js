@@ -1,6 +1,11 @@
 import React from 'react';
+import api from '../utils/api';
 
 function Post() {
+  // addJob = () => {
+    
+  // }
+
   return (
     <form>
       <label>
@@ -9,7 +14,7 @@ function Post() {
       </label>
       <label>
         Job Description
-        <input type='textarea' name='job-description' />
+        <textarea name='job-description' />
       </label>
       <input type='submit' value='Submit' />
     </form>

@@ -21,7 +21,7 @@ class Jobs extends Component {
   render() {
     return (
       <div>
-        <Navbar></Navbar>
+        <Navbar/>
         <h1>Find Your Next Job</h1>
         {this.state.jobs.length ? (
           <List>
