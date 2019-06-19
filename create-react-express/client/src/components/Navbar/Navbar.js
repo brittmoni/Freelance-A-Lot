@@ -23,8 +23,7 @@ const Navbar = props =>
                         <li class="nav-item">
                             <a class="nav-link" href="#SignUp">Sign up</a>
                         </li>
-
-                       
+                    
                         <li class="nav-item">
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                 Log in
