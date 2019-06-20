@@ -2,14 +2,15 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 //import { Link } from 'react-router-dom';
 import "./Navbar.css";
+import logo from '../../img/brand.png';
 
 
 // depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar (props) {
     return (
-<navbar class="navbar navbar-expand-lg navbar-light bg-light fixed-top animated fadeIn delay-1s">
+<div className="navbar navbar-expand-lg navbar-light fixed-top animated fadeIn delay-1s">
             <div class="container">
-                <div id="navbar-brand"> Freelance-a-Lot</div>
+                <div className="navbar-brand"><img src={logo} className="brand" alt="Logo" /> </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,7 +44,7 @@ function Navbar (props) {
                     </form>
                 </div>
                 </div>
-        </navbar>
+        </div>
          );
         }
 export default Navbar;

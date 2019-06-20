@@ -40,6 +40,7 @@
         color: #fff;
         text-transform: uppercase;
         width: 980px;
+       
     }
 
     ul {
@@ -58,4 +59,23 @@
     Float: right;
     display:inline;
     text-align: center;
+}
+/*============= MEDIA QUERIES =============*/
+
+/* Medium (md) devices (tablets, 768px and under) */
+
+@media (max-width: 768px) {
+	.caption {
+		top: 35%;
+    }
+    .copyright {
+        width: 400px;
+    }
+    .social {
+        width: 500px;
+    }
+	.caption h3 {
+		font-size: 1.8rem;
+		padding-bottom: 1.2rem;
+	}
 }
