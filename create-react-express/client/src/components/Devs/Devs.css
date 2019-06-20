@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.img {
+    width: 15%; 
+    height: 200%; 
+    object-fit: cover;
+}
+.devs {
+    padding-top: 10px;
+    margin-top: 5px;
+    height: 500px;
+}
+.h3 {
+    font-size: 30px;
+    font-family: Oswald, cursive;
+    font-weight: bold;
+    margin-bottom: 75px; 
+    margin-top: 75px;
+    color: black;
+    }
+.cardphoto {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}

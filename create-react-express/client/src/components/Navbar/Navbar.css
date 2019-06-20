@@ -1,16 +1,9 @@
+.navbar {
+  background-color: #082C5C;
+}
 .btn {
   margin-left: 10px;
 }
-#navbar-brand {
-    color: green;
-    padding-bottom: 0.4px;
-    padding-top: 1px;
-    font-family: Oswald, cursive;
-    font-size: 25px;
-     text-shadow: -1px grey, 0 1px grey, 1px 0 grey, 0 -1px white;
-     text-transform: uppercase;
-       text-shadow: 0 0 6px grey; /* horizontal-offset vertical-offset 'blur' colour */
-     -moz-text-shadow: 0 0 6px white;
-     -webkit-text-shadow: 0 0 6px white;
-     
+.brand {
+  width: 140px;    
   }
