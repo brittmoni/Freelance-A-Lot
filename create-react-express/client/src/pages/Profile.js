@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
+// import 'bootstrap/dist/css/bootstrap.css';
+// function Post() {
 
-function Post() {
+// }
 
-}
-
-export default Post;
+// export default Post;
