@@ -5,7 +5,8 @@ import "./Navbar.css";
 
 
 // depending on the current path, this component sets the "active" class on the appropriate navigation link item
-const Navbar = props =>
+function Navbar (props) {
+    return (
 <navbar class="navbar navbar-expand-lg navbar-light bg-light fixed-top animated fadeIn delay-1s">
             <div class="container">
                 <div id="navbar-brand"> Freelance-a-Lot</div>
@@ -43,9 +44,6 @@ const Navbar = props =>
                 </div>
                 </div>
         </navbar>
-
-
-
-
-
+         );
+        }
 export default Navbar;
