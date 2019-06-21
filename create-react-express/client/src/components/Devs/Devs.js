@@ -3,6 +3,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import "./Devs.css";
+import {Animated} from "react-animated-css";
 import annabellaimg from '../../img/profileannabella.png';
 import britimg from '../../img/Britt.png';
 import nygelimg from '../../img/nygelprofile.png';
@@ -16,9 +17,9 @@ function Devs (props) {
             <h3>Browse our highest-rated resources</h3>
             <hr></hr>
         </div>
-        <CardDeck className="card">
-            <Card>
-                <Card.Img variant="top" src={annabellaimg}/>
+        <CardDeck className="card animated fadeInUp">
+            <Card className="animated fadeInLeft delay-5s">
+                <Card.Img variant="top"  src={annabellaimg}/>
                 <Card.Body>
                     <Card.Title>Annabella W.</Card.Title>
                     <Card.Text>
@@ -33,7 +34,7 @@ function Devs (props) {
                     <small className="text-muted">placeholder for url to profile</small>
                 </Card.Footer>
             </Card>
-            <Card>
+            <Card className="animated fadeInLeft delay-5s">
                 <Card.Img variant="top" src={britimg} />
                 <Card.Body>
                     <Card.Title>Brittany F.</Card.Title>
@@ -67,7 +68,7 @@ function Devs (props) {
                     <a href="https://www.upwork.com/freelancers/~0141ca93fedd35a1f1">Nygel's website</a></small>
                 </Card.Footer>
             </Card>
-            <Card>
+            <Card className="animated fadeInRight delay-5s">
                 <Card.Img variant="top" src={tanyaimg}/>
                 <Card.Body>
                     <Card.Title>Tanya O.</Card.Title>
@@ -85,7 +86,7 @@ function Devs (props) {
                     <a href="https://omnipresent-tanya.netlify.com/">Tanya's Portfolio</a></small>
                 </Card.Footer>
             </Card>
-            <Card>
+            <Card lassName="animated fadeInRight delay-5s">
                 <Card.Img variant="top" src={thibaultimg}/>
                 <Card.Body>
                     <Card.Title>Thibault F.</Card.Title>

@@ -62,6 +62,9 @@
     display:inline;
     text-align: center;
 }
+.topofpage {
+    float:right;
+}
 /*============= MEDIA QUERIES =============*/
 
 /* Medium (md) devices (tablets, 768px and under) */

@@ -53,6 +53,7 @@ and typescript.</p>
                 <i className="fa fa-envelope-square fa-2x"></i>
             </div>
         </div>
+        
     </div>
 
 

@@ -11,9 +11,9 @@ import Featuredjobs from "../components/Featuredjobs/Featuredjobs"
 
 function Home() {
   return (
-    <div class="text-center animated fadeIn 3s">
+    <div className="text-center animated fadeIn 3s">
       <Header backgroundImage="https://i.imgur.com/lR3Nc9S.jpg">
-        <h1>Freelance-A-Lot®</h1>
+        <div className="animated bounceInUp"><h1>Freelance-A-Lot®</h1></div>
       </Header>
       <Navbar />
       <Categories/>
