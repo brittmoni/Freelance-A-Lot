@@ -3,13 +3,12 @@ import React from 'react';
 import "./Footer.css";
 
 const Footer = props =>
-
-    <footer className="footer-default">
+    <div className="footer">
         <div className="container">
             <div className="row">
                 <div className="col-md-10">
                     <div className="footerleft">
-                        <ul class="list">
+                        <ul className="list">
                             <li>
                                 <a href="/" target="_self">How it works</a>
                             </li>
@@ -22,7 +21,7 @@ const Footer = props =>
                         </ul>
                     </div>
                     <div className="footerright">
-                        <ul class="list">
+                        <ul className="list">
                             <li>
                                 <a href="#postjobs" target="_self">Post Job</a>
                             </li>
@@ -37,31 +36,31 @@ const Footer = props =>
                     </div>
                 </div>
                 <div className="col-md-2">
-                <div className="topofpage">
-                <a href="/" class="top-scroll">
-				<i class="fa fa-angle-up fa-3x"></i></a>
-                </div>
-                </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="social">
-                            <div className="col-md-12">
-                                <a href="https://www.linkedin.com/">
-                                    <i className="fa fa-linkedin fa-2x">
-                                    </i></a>
-                                <a href="https://github.com/brittmoni/Freelance-A-Lot">
-                                    <i className="fa fa-github fa-2x"></i></a>
-                                <a href="https://trello.com/b/psY4OtSx/final-project">
-                                    <i className="fa fa-trello fa-2x"></i></a>
-                                <br></br>
-                                <div class="copyright">
-                                    © 2019 Freelance-A-Lot </div>
-                            </div>
-                        </div>
+                    <div className="topofpage">
+                        <a href="/" className="top-scroll">
+                            <i class="fa fa-angle-up fa-3x"></i></a>
                     </div>
                 </div>
             </div>
-    </footer>
+            <div className="row">
+                <div className="col-md-12">
+                    <div className="social">
+                        <a href="https://www.linkedin.com/">
+                            <i className="fa fa-linkedin fa-2x">
+                            </i></a>
+                        <a href="https://github.com/brittmoni/Freelance-A-Lot">
+                            <i className="fa fa-github fa-2x"></i></a>
+                        <a href="https://trello.com/b/psY4OtSx/final-project">
+                            <i className="fa fa-trello fa-2x"></i></a>
+                        <hr></hr>
+                        <div class="copyright">
+                            © 2019 Freelance-A-Lot </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 export default Footer;

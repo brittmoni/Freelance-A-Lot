@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-.footer-default {
+.footer {
     float: left;
-    width: auto;
+    width: 100%;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
@@ -11,30 +11,28 @@
     margin-top: 5px;
     padding: 10px;
     position: fixed-bottom;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(7, 38, 78);
     font-family: Lato, cursive;
   }
 
-  footer a {
-    color: white;
+   a {
+    color: white !important;
+    cursor: pointer;
   }
-  footer a:hover {
+  a:hover {
     color: rgb(22, 69, 129)!important;
     cursor: pointer;
   }  
-
-  hr.socket {
-    border-top: .2rem solid #666b71;
-    width: 100%;
-  }
     .social {
-        color: #fff;
         width: 980px;
         text-align: center;
         padding: 5px;
         justify-content: center;
         letter-spacing: 10px;
         cursor: pointer;
+    }
+    .fa {
+        color: #fff;
     }
     .copyright {
         text-align: center;

@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function Post() {
   return (
+    
     <form>
       <label>
         Job Title
