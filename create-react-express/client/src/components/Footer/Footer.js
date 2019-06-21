@@ -10,7 +10,7 @@ const Footer = props =>
                 <div class="footerleft">
                     <ul class="list">
                         <li>
-                            <a href="/info/about/" target="_self">How it works</a>
+                            <a href="/" target="_self">How it works</a>
                         </li>
                         <li>
                             <a href="/signup/" target="_self">Sign Up</a>
@@ -23,13 +23,13 @@ const Footer = props =>
                 <div class="footerright">
                     <ul class="list">
                         <li>
-                            <a href="..." target="_self">Post Job</a>
+                            <a href="#postjobs" target="_self">Post Job</a>
                         </li>
                         <li>
-                            <a href="..." target="_self">Trello Board</a>
+                            <a href="https://trello.com/b/psY4OtSx/final-project" target="_self">Trello Board</a>
                         </li>
                         <li>
-                            <a href="..." target="_self">Find Jobs</a>
+                            <a href="#featured" target="_self">Find Jobs</a>
                         </li>
                     </ul>
 
@@ -39,9 +39,13 @@ const Footer = props =>
                 <div className="col-md-12">
                     <div className="social">
                         <div className="col-md-12">
-                            <i className="fa fa-linkedin fa-2x"></i>
-                            <i className="fa fa-github fa-2x"></i>
-                            <i className="fa fa-envelope-square fa-2x"></i>
+                            <a href="https://www.linkedin.com/">
+                                <i className="fa fa-linkedin fa-2x">
+                                </i></a>
+                                <a href="https://github.com/brittmoni/Freelance-A-Lot">    
+                            <i className="fa fa-github fa-2x"></i></a>
+                            <a href="https://trello.com/b/psY4OtSx/final-project">
+                            <i className="fa fa-trello fa-2x"></i></a>
                             <br></br>
                             <div class="copyright">
                                 © 2019 Freelance-A-Lot </div>
@@ -52,8 +56,5 @@ const Footer = props =>
 
         </div>
     </footer>
-
-
-
 
 export default Footer;

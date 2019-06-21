@@ -63,7 +63,8 @@ function Devs (props) {
       </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">placeholder for url to profile</small>
+                    <small className="text-muted">
+                    <a href="https://www.upwork.com/freelancers/~0141ca93fedd35a1f1">Nygel's website</a></small>
                 </Card.Footer>
             </Card>
             <Card>
@@ -80,7 +81,8 @@ function Devs (props) {
       </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">placeholder for url to profile</small>
+                    <small className="text-muted">
+                    <a href="https://omnipresent-tanya.netlify.com/">Tanya's Portfolio</a></small>
                 </Card.Footer>
             </Card>
             <Card>
