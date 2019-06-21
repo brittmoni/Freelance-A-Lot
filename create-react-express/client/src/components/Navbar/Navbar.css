@@ -1,28 +1,9 @@
 .navbar {
-    background: maroon;
-    min-height: 80px;
-    font-family: Arvo, cursive;
-    position: fixed top;
-    width: 100%;
-    color: rgb(255, 255, 255);
-    font-size: calc(10px + 14 * (100vw - 320px)/ 800);
-    z-index: 99;
-    white-space: nowrap;
-   }
-   
-   .navbar ul {
-    margin: 0;
-    padding: 0;
-   }
-   
-   .navbar li {
-    display: inline-block;
-    padding: 26px 0;
-    width: 33%;
-    text-align: center;
-   }
-   
-   .brand {
-   font-size: 40px;
-   font-weight: bold;
-   }
+  background-color: #082C5C;
+}
+.btn {
+  margin-left: 10px;
+}
+.brand {
+  width: 140px;    
+  }

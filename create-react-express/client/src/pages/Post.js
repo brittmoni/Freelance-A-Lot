@@ -1,5 +1,6 @@
 import React from 'react';
-import api from '../utils/api';
+import api from '../utils';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function Post() {
   // addJob = () => {

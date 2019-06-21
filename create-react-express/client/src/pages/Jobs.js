@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import api from '../utils/api';
 import {List, ListItem} from '../components/List';
-import Navbar from '../components/Navbar';
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
 class Jobs extends Component {
   state = {
@@ -41,6 +43,8 @@ class Jobs extends Component {
         ) : (
           <h1>No Jobs Posted</h1>
         )}
+
+        <Footer/>
       </div>
     );
   }
