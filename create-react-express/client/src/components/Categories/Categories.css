@@ -1,0 +1,29 @@
+.categories {
+   
+    margin-top: 15px;   
+}
+.cat {
+    background-color: rgba(158, 151, 151, 0.507);
+    padding: 10px;
+}
+.fa {
+    color: #082C5C;
+}
+
+.fa:hover {
+	transform: scale(2.1);
+    cursor: zoom-in;
+}
+  /*============= MEDIA QUERIES =============*/
+
+/* Medium (md) devices (tablets, 768px and under) */
+
+@media (max-width: 768px) {
+	.fa {
+		top: 35%;
+	}
+	.caption h3 {
+		font-size: 1.8rem;
+		padding-bottom: 1.2rem;
+	}
+}

@@ -7,11 +7,11 @@ import Button from 'react-bootstrap/Button';
 
 // depending on the current path, this component sets the "active" className on the appropriate navigation link item
 const Featuredjobs = props =>
-    <div class="featured">
+    <div className="featured">
         <h3>Find New Jobs</h3>
         <hr></hr>
         {/*---- JOB 1 section ----- */}
-        <div class="row">
+        <div className="row">
             <h4>Full-Stack Javascript Developer (Node/React)</h4>
             <p>We are looking for a remote US based full-stack Javascript developer with experience using
             React, Node.JS, Socket.io, and AWS.</p>
@@ -25,7 +25,7 @@ const Featuredjobs = props =>
             </div>
         </div>
         {/* -------JOB 2 section  --------*/}
-        <div class="row">
+        <div className="row">
             <h4>Web Designer</h4>
             <p>Intersect Digital is looking for a professional Web Designer with experience in content management systems to take over the graphic and user interface design of clients' website. We're looking for a candidate who has created and maintained functional, attractive websites.</p>
 

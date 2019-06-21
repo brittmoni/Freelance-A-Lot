@@ -5,7 +5,8 @@ height: auto;
 padding: 20px; 
 margin-top: 75px; 
 margin-bottom: 75px;
-text-align: center; 
+text-align: center;
+float: left;
 background-color: rgb(249, 249, 249);
 }
 .h3 {

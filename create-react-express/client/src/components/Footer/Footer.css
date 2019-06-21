@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 .footer-default {
-
+    float: left;
+    width: auto;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
