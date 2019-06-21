@@ -3,10 +3,11 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import "./Devs.css";
-import annabellaimg from '../../img/Annabella.png';
+import annabellaimg from '../../img/profileannabella.png';
 import britimg from '../../img/Britt.png';
 import nygelimg from '../../img/nygelprofile.png';
 import tanyaimg from '../../img/tanyaprofile.png';
+import thibaultimg from '../../img/thibault.jpg';
 
 function Devs (props) {
     return (
@@ -15,7 +16,7 @@ function Devs (props) {
             <h3>Browse our highest-rated resources</h3>
             <hr></hr>
         </div>
-        <CardDeck>
+        <CardDeck className="card">
             <Card>
                 <Card.Img variant="top" src={annabellaimg}/>
                 <Card.Body>
@@ -37,8 +38,11 @@ function Devs (props) {
                 <Card.Body>
                     <Card.Title>Brittany F.</Card.Title>
                     <Card.Text>
-                    I am a full stack web developer with almost 6 years experience designing, developing, and
+                    I am a full stack web developer with years of experience designing, developing, and
                                     maintaining web applications on the cloud.
+                                    I specialize in Node.JS, MySQL, mongoDB, JavaScript, jQuery, Bootstrap, HTML, and CSS. I have never encountered a web development problem I couldn't solve and will always find a solution to your issue.
+                                    My primary focus is to support, service and add value to my customers. I listen and clearly understand my customers issues and technology needs.
+                                    
         content.{' '}
                     </Card.Text>
                 </Card.Body>
@@ -56,6 +60,36 @@ function Devs (props) {
                                     other upcoming or current developers. I am a current developer at the Digital Advertising
                                     Agency based in Charlotte, NC. Where I spend constant hours making the internet a better
                                     place.                  
+      </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <small className="text-muted">placeholder for url to profile</small>
+                </Card.Footer>
+            </Card>
+            <Card>
+                <Card.Img variant="top" src={tanyaimg}/>
+                <Card.Body>
+                    <Card.Title>Tanya O.</Card.Title>
+                    <Card.Text>A highly driven, organized, and efficient project manager has a proven track record of quality
+                                    and timely project completions. Experienced in managing and a wide variety of positions
+                                    on various teams throughout numerous projects / project types, Tanya Odegova is focused
+                                    on the big picture milestones while continuous and actively participating in development,
+                                    maintaining feedback and guidance, and pursuing open, appreciable, and gratifying client
+                                    relationships.
+                  
+      </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                    <small className="text-muted">placeholder for url to profile</small>
+                </Card.Footer>
+            </Card>
+            <Card>
+                <Card.Img variant="top" src={thibaultimg}/>
+                <Card.Body>
+                    <Card.Title>Thibault F.</Card.Title>
+                    <Card.Text>I am a 100% full-time freelancer specializing in creative and efficient designs that work on all devices/platforms. I work with HTML, CSS, PHP, jQuery, MySQL and all Adobe CC apps. Custom WordPressed solutions with enhanced functionality are my main focus.
+                    I use a design/build approach to increase efficiency and decrease development time and costs. Please feel free to invite me to interview on your project. I'm always looking for new opportunities.
+                    
       </Card.Text>
                 </Card.Body>
                 <Card.Footer>
