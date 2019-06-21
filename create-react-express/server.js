@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(routes);
 
-mongoose.connect('mongodb://localhost/freelance-a-lot', {useNewUrlParser: true});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/freelance-a-lot');
 
 // Define API routes here
 

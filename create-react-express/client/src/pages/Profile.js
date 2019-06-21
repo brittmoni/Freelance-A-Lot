@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Post() {
+function Profile() {
 
 }
 
-export default Post;
+export default Profile;
