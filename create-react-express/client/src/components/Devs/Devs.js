@@ -30,8 +30,8 @@ function Devs (props) {
                                     and understand. My favorite tools for the job are Adobe XD, Photoshop, and Illustrator.
       </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">placeholder for url to profile</small>
+                <Card.Footer id="cardfooter">
+                    <small className="text">placeholder for url to profile</small>
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInLeft delay-5s">
@@ -47,8 +47,8 @@ function Devs (props) {
         content.{' '}
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">placeholder for url to profile</small>
+                <Card.Footer id="cardfooter">
+                    <small className="text">placeholder for url to profile</small>
                 </Card.Footer>
             </Card>
             <Card>
@@ -63,8 +63,8 @@ function Devs (props) {
                                     place.                  
       </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">
+                <Card.Footer id="cardfooter">
+                    <small className="text">
                     <a href="https://www.upwork.com/freelancers/~0141ca93fedd35a1f1">Nygel's website</a></small>
                 </Card.Footer>
             </Card>
@@ -81,12 +81,12 @@ function Devs (props) {
                   
       </Card.Text>
                 </Card.Body>
-                <Card.Footer>
+                <Card.Footer id="cardfooter">
                     <small className="text-muted">
                     <a href="https://omnipresent-tanya.netlify.com/">Tanya's Portfolio</a></small>
                 </Card.Footer>
             </Card>
-            <Card lassName="animated fadeInRight delay-5s">
+            <Card className="animated fadeInRight delay-5s">
                 <Card.Img variant="top" src={thibaultimg}/>
                 <Card.Body>
                     <Card.Title>Thibault F.</Card.Title>
@@ -95,8 +95,8 @@ function Devs (props) {
                     
       </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <small className="text-muted">placeholder for url to profile</small>
+                <Card.Footer id="cardfooter">
+                    <small className="text">placeholder for url to profile</small>
                 </Card.Footer>
             </Card>
         </CardDeck>

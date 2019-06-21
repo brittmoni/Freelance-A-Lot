@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 .how {
+    width: 100%;
     height: auto;
     margin: 10px 10px 10px 10px;
 float: left;

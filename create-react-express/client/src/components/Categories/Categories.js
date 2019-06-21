@@ -7,8 +7,9 @@ import logo from '../../img/brand.png';
 
 function Categories (props) {
     return (
+        
 <div className="categories animated fadeIn delay-4s">
-
+<div className="container">
                 <div className="row">
                     <div className="col-sm-2">
                         <small>
@@ -43,6 +44,7 @@ function Categories (props) {
                     </div>
             
             </div>
+</div>
 </div>
 
     );

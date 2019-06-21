@@ -14,51 +14,44 @@ const Instructions = props =>
                         <h3>
                             How it works
                         </h3>
+                        <hr></hr>
                     </div>
                 </div>
-                <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-                            <i class="fa fa-search"></i>
-                            <hr></hr>
+                            <i class="fa fa-search fa-2x"></i>  
                             <br></br>
                             <strong>FIND</strong>
                             <p>Post a job to tell us about your project. We'll quickly match you with the right freelancers.
                             </p>
                             <br></br>
-                            <br></br>
                         </div>
                         <div class="col-md-3">
-                            <i class="fa fa-window-restore"></i>
-                            <hr></hr>
+                            <i class="fa fa-window-restore fa-2x"></i>
                             <br></br>
                             <strong>HIRE</strong>
                             <p>Browse profiles, e-mail proposals then interview top candidates. Hire a favorite and begin your
                                 project.
                             </p>
                             <br></br>
-                            <br></br>
                         </div>
                         <div className="col-md-3">
-                            <i className="fa fa-creative-commons-share"></i>
-                            <hr></hr>
+                            <i className="fa fa-laptop fa-2x"></i>
                             <br></br>
                             <strong>WORK</strong>
                             <p>Use the Freelance-a-Lot® platform to chat, share files, and collaborate from your desktop or
                                 on the go.
                             </p>
                             <br></br>
-                            <br></br>
                         </div>
                         <div className="col-md-3">
-                            <i className="fa fa-money-bill-wave-alt"></i>
-                            <hr></hr>
+                            <i className="fa fa-money fa-2x"></i>
                             <br></br>
                             <strong>PAY</strong>
                             <p>With Freelance-a-Lot® Protection, only pay for work you authorize.
                             </p>
                         </div>
-                    </div>
+                    
                 </div>
                 <hr></hr>
     </div>
