@@ -35,7 +35,7 @@ function Navbar (props) {
                         <li class="nav-item">
                            
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#PJ">
-                                Post Job
+                                <a href='/postjob'>Post Job</a>
                             </button>
                         </li>
                     </ul>

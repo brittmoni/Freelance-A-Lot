@@ -16,7 +16,10 @@ module.exports= {
   },
   create: function(req, res) {
     db.Jobs
-      .create(req.body)
+      .create({
+        name: req.body.name,
+        description: req.body.description
+      })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
