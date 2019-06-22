@@ -5,11 +5,11 @@ const profilesSchema = new Schema({
   name: {type: String,
           required: true},
   biography: {type: String,
-            required: true},
+          required: true},
   languages: {type: String,
-              required: true},
+          required: true},
   portfolio: {type: String,
-              required: true}
+          required: true}
 });
 
 const Profile = mongoose.model('Profile', profilesSchema);

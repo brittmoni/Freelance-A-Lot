@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {Animated} from "react-animated-css";
 //import { Link } from 'react-router-dom';
 import "./Categories.css";
-import logo from '../../img/brand.png';
+// import logo from '../../img/logo.png';
 
 function Categories (props) {
     return (
