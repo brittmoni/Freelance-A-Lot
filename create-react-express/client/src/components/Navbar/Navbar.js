@@ -23,18 +23,18 @@ function Navbar (props) {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#SignUp">Sign up</a>
+                            <a class="nav-link" href="/Login">Sign up</a>
                         </li>
                     
                         <li class="nav-item">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            <button type="button" class="btn btn-primary">
                                 Log in
                             </button>
                         </li>
                       
                         <li class="nav-item">
                            
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#PJ">
+                            <button type="button" class="btn btn-primary" data-target="/postjob">
                                 Post Job
                             </button>
                         </li>
