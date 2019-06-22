@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-.footer-default {
-
+.footer {
+    float: left;
+    width: 100%;
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
@@ -10,30 +11,29 @@
     margin-top: 5px;
     padding: 10px;
     position: fixed-bottom;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(3, 18, 37);
     font-family: Lato, cursive;
   }
-
-  footer a {
-    color: white;
+.card-footer {
+    background-color: rgba(255, 255, 255, 0.288);
+}
+   a {
+    color: white !important;
+    cursor: pointer;
   }
-  footer a:hover {
-    color: green!important;
+  a:hover {
+    color: rgb(22, 69, 129)!important;
     cursor: pointer;
   }  
-
-  hr.socket {
-    border-top: .2rem solid #666b71;
-    width: 100%;
-  }
     .social {
-        color: #fff;
         width: 980px;
         text-align: center;
         padding: 5px;
         justify-content: center;
         letter-spacing: 10px;
+        cursor: pointer;
     }
+   
     .copyright {
         text-align: center;
         padding-top: 7px;
@@ -59,6 +59,9 @@
     Float: right;
     display:inline;
     text-align: center;
+}
+.topofpage {
+    float:right;
 }
 /*============= MEDIA QUERIES =============*/
 

@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
  
  function Header(props) {
     return (
-      <div className="header animated fadeIn delay-3s text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
+      <div className="header text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
         {props.children}
       </div>
     );

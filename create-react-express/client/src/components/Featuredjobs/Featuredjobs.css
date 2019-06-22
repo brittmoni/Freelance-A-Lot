@@ -5,7 +5,8 @@ height: auto;
 padding: 20px; 
 margin-top: 75px; 
 margin-bottom: 75px;
-text-align: center; 
+text-align: center;
+float: left;
 background-color: rgb(249, 249, 249);
 }
 .h3 {
@@ -28,7 +29,7 @@ color: black;
     -ms-user-select: none;
     user-select: none;
     background-color: #082C5C;
-    border: 1px solid #082C5C;
+    border: 1px solid rgb(4, 27, 56);
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
