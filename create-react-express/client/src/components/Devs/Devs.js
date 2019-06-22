@@ -4,11 +4,6 @@ import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import "./Devs.css";
 import {Animated} from "react-animated-css";
-import annabellaimg from '../../img/profileannabella.png';
-import britimg from '../../img/Britt.png';
-import nygelimg from '../../img/nygelprofile.png';
-import tanyaimg from '../../img/tanyaprofile.png';
-import thibaultimg from '../../img/thibault.jpg';
 
 function Devs (props) {
     return (
@@ -19,7 +14,7 @@ function Devs (props) {
         </div>
         <CardDeck className="card animated fadeInUp">
             <Card className="animated fadeInLeft delay-5s">
-                <Card.Img variant="top"  src={annabellaimg}/>
+                <Card.Img variant="top"  src="https://i.imgur.com/T4EMxKw.jpg"/>
                 <Card.Body>
                     <Card.Title>Annabella W.</Card.Title>
                     <Card.Text>
@@ -35,7 +30,7 @@ function Devs (props) {
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInLeft delay-5s">
-                <Card.Img variant="top" src={britimg} />
+                <Card.Img variant="top" src="https://i.imgur.com/GnEKrY2.jpg" />
                 <Card.Body>
                     <Card.Title>Brittany F.</Card.Title>
                     <Card.Text>
@@ -52,7 +47,7 @@ function Devs (props) {
                 </Card.Footer>
             </Card>
             <Card>
-                <Card.Img variant="top" src={nygelimg} />
+                <Card.Img variant="top" src="https://i.imgur.com/4B7oHwK.jpg" />
                 <Card.Body>
                     <Card.Title>Nygel P.</Card.Title>
                     <Card.Text>I am a Full-stack Developer. I enjoy taking complex problems and turning them
@@ -69,7 +64,7 @@ function Devs (props) {
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInRight delay-5s">
-                <Card.Img variant="top" src={tanyaimg}/>
+                <Card.Img variant="top" src="https://i.imgur.com/6Fue2AN.jpg"/>
                 <Card.Body>
                     <Card.Title>Tanya O.</Card.Title>
                     <Card.Text>A highly driven, organized, and efficient project manager has a proven track record of quality
@@ -82,12 +77,13 @@ function Devs (props) {
       </Card.Text>
                 </Card.Body>
                 <Card.Footer id="cardfooter">
-                    <small className="text-muted">
+                    <small className="text">
                     <a href="https://omnipresent-tanya.netlify.com/">Tanya's Portfolio</a></small>
                 </Card.Footer>
             </Card>
+
             <Card className="animated fadeInRight delay-5s">
-                <Card.Img variant="top" src={thibaultimg}/>
+                <Card.Img variant="top" src="https://i.imgur.com/ubgpU8v.jpg"/>
                 <Card.Body>
                     <Card.Title>Thibault F.</Card.Title>
                     <Card.Text>I am a 100% full-time freelancer specializing in creative and efficient designs that work on all devices/platforms. I work with HTML, CSS, PHP, jQuery, MySQL and all Adobe CC apps. Custom WordPressed solutions with enhanced functionality are my main focus.
@@ -96,7 +92,10 @@ function Devs (props) {
       </Card.Text>
                 </Card.Body>
                 <Card.Footer id="cardfooter">
-                    <small className="text">placeholder for url to profile</small>
+                    <small className="text">
+                    <a href="https://tfaouz.github.io/Updated-Profile/dist/index.html">
+                    Thibault's Portfolio</a>
+                    </small>
                 </Card.Footer>
             </Card>
         </CardDeck>
