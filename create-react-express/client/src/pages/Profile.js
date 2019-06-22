@@ -1,11 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+// import Navbar from "../components/Navbar/Navbar"
+import Footer from "../components/Footer/Footer"
+import Resume from "../components/Resume/Resume"
 
 function Profile() {
   return (
     <div>
-      <h1>Brittany Franklin</h1>
-      <p>My name is Brittany Franklin. I am a full stack developer adept in HTML, CSS, JavaScript, React, Express, Node, MySQL, and MongoDB.</p>
+      <Resume/>
     </div>
   )
 }
