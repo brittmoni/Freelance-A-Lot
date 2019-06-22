@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 //import { Link } from 'react-router-dom';
 import "./Navbar.css";
-import logo from '../../img/brand.png';
+import logo from '../../img/logo.png';
 
 
 // depending on the current path, this component sets the "active" class on the appropriate navigation link item

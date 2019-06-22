@@ -1,5 +1,5 @@
-import React from 'react';
-import api from '../utils';
+ import React from 'react';
+import api from '../utils/api';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function Post() {
