@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import api from '../utils/api';
 import 'bootstrap/dist/css/bootstrap.css';
+
 import axios from 'axios';
 
 class Post extends Component {
