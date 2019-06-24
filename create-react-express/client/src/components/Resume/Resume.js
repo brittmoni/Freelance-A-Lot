@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Resume.css";
 import faker from 'faker';
-
+import logo from '../../img/logo.png'
 
 
 const Resume = () => {
@@ -10,8 +10,8 @@ const Resume = () => {
 
             <div class="card w-100">
 
-                <div class="card-header">
-                    Featured
+                <div class="card-logo">
+                <img src={logo} alt={"logo"}/> 
                 </div>
 
                 <div class="card-body">
@@ -33,22 +33,18 @@ const Resume = () => {
                                         <div class="row">
                                             <div class="col">
                                                 Work
+                                                <hr/>
                                             </div>
-                                            <div class="col">
-                                                2 of 2
-                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
 
-                                <div className="ranking">
+                                <div className="row">
 
-
-
-                                    Skills
+                                    <div className="ranking">
+                                        Skills
                                     <hr />
-
+                                    </div>
                                 </div>
 
                             </div>
@@ -68,7 +64,7 @@ const Resume = () => {
                                 <hr />
 
 
-                                
+
                                 <div className="ranking">
                                     Ranking
                         </div>

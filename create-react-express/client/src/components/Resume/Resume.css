@@ -1,3 +1,7 @@
 .card-body{
 border: none;
 };
+
+.card-logo{
+    width: 10%;
+}
