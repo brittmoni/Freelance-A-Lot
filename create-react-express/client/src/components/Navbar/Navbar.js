@@ -31,10 +31,13 @@ function Navbar(props) {
                             </a>
                         </li>
 
+
                         <li class="nav-item active">
                             <a className="nav-link" href="/postjob">
                                 Post Job
                             </a>
+
+
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">

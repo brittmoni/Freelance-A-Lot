@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const router = require('./routes');
 const express = require("express");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
@@ -12,15 +13,11 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
-mongoose.connect('mongodb://localhost/freelance-a-lot', {useNewUrlParser: true});
+app.use(router);
 
-// Define API routes here
-
-// Send every other request to the React app
-// Define any API routes before this runs
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/freelance-a-lot', { useNewUrlParser:true })
+  .then(() => console.log('Connected to database'))
+  .catch(err => console.log(err));
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
