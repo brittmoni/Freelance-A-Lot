@@ -15,15 +15,9 @@ if (process.env.NODE_ENV === "production") {
 
 app.use(router);
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/freelance-a-lot')
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/freelance-a-lot', { useNewUrlParser:true })
   .then(() => console.log('Connected to database'))
   .catch(err => console.log(err));
-
-// Send every other request to the React app
-// Define any API routes before this runs
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
