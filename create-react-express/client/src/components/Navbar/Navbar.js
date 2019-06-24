@@ -22,7 +22,7 @@ function Navbar(props) {
                             </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="/Login">Sign up</a>
+                            <a class="nav-link" href="/jobs">Find Jobs</a>
                         </li>
 
                         <li class="nav-item active">
@@ -36,8 +36,11 @@ function Navbar(props) {
                             <a className="nav-link" href="/postjob">
                                 Post Job
                             </a>
-
-
+                        </li>
+                        <li class="nav-item active">
+                            <a className="nav-link" href="/profile">
+                                Profile Settings
+                            </a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
