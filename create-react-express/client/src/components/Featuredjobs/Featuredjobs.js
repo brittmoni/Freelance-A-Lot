@@ -18,6 +18,7 @@ const Featuredjobs = props =>
             <div className="col-md-6">
                 <br></br>
                 <Button>Apply Now</Button>
+                <img src="https://i.ibb.co/MZdsZ2C/frame-2.png" alt="fullstack" width="128" height="128"></img>
             </div>
             <div className="col-md-6">
                 <p>Share this job with your friends</p>
@@ -32,6 +33,7 @@ const Featuredjobs = props =>
             <div className="col-md-6">
                 <br></br>
                 <Button>Apply Now</Button>
+                <img src="https://i.ibb.co/w61N4FX/frame-1.png" alt="webdesigner" width="128" height="128"></img>
             </div>
             <div className="col-md-6">
                 <p>Share this job with your friends</p>
@@ -47,6 +49,7 @@ and typescript.</p>
             <div className="col-md-6">
                 <br></br>
                 <Button>Apply Now</Button>
+                <img src="https://i.ibb.co/P6SsQ7m/16125497.png" alt="frontenddev" width="128" height="128"></img>
             </div>
             <div className="col-md-6">
                 <p>Share this job with your friends</p>
