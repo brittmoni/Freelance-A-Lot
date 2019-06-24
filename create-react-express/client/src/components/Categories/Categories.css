@@ -1,0 +1,16 @@
+.categories {
+	background-color: rgba(158, 151, 151, 0.507);
+    padding: 10px;
+	margin-top: 0px;
+
+}
+
+.fa {
+	color: #082C5C;
+	
+}
+
+.fa:hover {
+	transform: scale(2.1);
+    cursor: zoom-in;
+}

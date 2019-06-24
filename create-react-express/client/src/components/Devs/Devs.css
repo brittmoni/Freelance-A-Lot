@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.img {
+    width: 15%; 
+    height: 200%; 
+    object-fit: cover;
+}
+
+.devs {
+    padding-top: 10px;
+    margin: 5px 10px 0px 0px;
+    height: 500px;
+}
+.h3 {
+    font-size: 30px;
+    font-family: Oswald, cursive;
+    font-weight: bold;
+    margin-bottom: 75px; 
+    margin-top: 75px;
+    color: black;
+    }
+
+.card {
+margin: 10px 10px 10px 10px;
+float: left;
+padding-bottom: 0px;
+
+}    
+.cardphoto {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+#cardfooter {
+    background-color: grey;
+}
+  /*============= MEDIA QUERIES =============*/
+
+/* Medium (md) devices (tablets, 768px and under) */
+
+@media (max-width: 768px) {
+	.cardphoto {
+        width: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+}
