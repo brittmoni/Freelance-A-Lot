@@ -35,7 +35,7 @@ class Post extends Component {
       description: this.state.description
     }
     axios.post('/postjob', newPost)
-      .then(res => console.log(newPost));
+      .then(newPost => console.log(newPost));
 
     console.log(newPost);
     
