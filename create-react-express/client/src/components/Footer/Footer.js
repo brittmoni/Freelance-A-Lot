@@ -61,6 +61,4 @@ const Footer = props =>
             </div>
         </div>
     </div>
-
-
 export default Footer;
