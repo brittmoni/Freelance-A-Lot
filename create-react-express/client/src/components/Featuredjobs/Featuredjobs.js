@@ -24,7 +24,7 @@ const Featuredjobs = props =>
             <div className="col-md-3">
                 <br></br>
                 <Button>Apply Now</Button>
-                <img src="https://i.ibb.co/MZdsZ2C/frame-2.png" alt="fullstack" width="128" height="128"></img>
+                <img src="https://i.ibb.co/Htk48WM/frame-4.png" alt="fullstack" width="128" height="128"></img>
             </div>
             <div className="col-md-3">
                 <br></br>
@@ -67,7 +67,7 @@ $150 per hour (fixed price)
             <div className="col-md-3">
                 <br></br>
                 <Button>Apply Now</Button>
-                <img src="https://i.ibb.co/w61N4FX/frame-1.png" alt="webdesigner" width="128" height="128"></img>
+                <img src="https://i.ibb.co/9pgvmMY/frame-5.png" alt="webdesigner" width="128" height="128"></img>
             </div>
             <div className="col-md-3">
                 <br></br>
@@ -106,7 +106,7 @@ CSS</p>
             <div className="col-md-3">
                 <br></br>
                 <Button>Apply Now</Button>
-                <img src="https://i.ibb.co/P6SsQ7m/16125497.png" alt="frontenddev" width="128" height="128"></img>
+                <img src="https://i.ibb.co/Ky7z2P0/frame-7.png" alt="frontenddev" width="128" height="128"></img>
             </div>
             <div className="col-md-3">
                 <br></br>
