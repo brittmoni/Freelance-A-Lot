@@ -23,7 +23,7 @@ const Footer = props =>
                     <div className="footerright">
                         <ul className="list">
                             <li>
-                                <a href="#postjobs" target="_self">Post Job</a>
+                                <a href="/postjob" target="_self">Post Job</a>
                             </li>
                             <li>
                                 <a href="https://trello.com/b/psY4OtSx/final-project" target="_self">Trello Board</a>

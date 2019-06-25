@@ -11,7 +11,7 @@ const Instructions = props =>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12">
-                        <h3>
+                        <h3 className="#HowItWorks">
                             How it works
                         </h3>
                         <hr></hr>
