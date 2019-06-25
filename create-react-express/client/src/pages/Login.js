@@ -3,7 +3,7 @@ import "../App.css"
 import * as firebase from "../../node_modules/firebase"
 import StyledFirebaseAuth from "../../node_modules/react-firebaseui/StyledFirebaseAuth"
 import Home from './Home';
-import { BrowserRouter as Redirect, Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 
 firebase.initializeApp({
     apiKey: "AIzaSyBvGIfOnVpnpqWsTh1GKZEj9lkUPdR9bMc",
@@ -32,7 +32,7 @@ class Login extends Component {
 
     componentDidMount = () => {
         firebase.auth().onAuthStateChanged(user => {
-
+            
             console.log(user)
             console.log(user.providerData[0])
 
@@ -52,19 +52,20 @@ class Login extends Component {
     }
     render() {
         return (
+                <Router>
             <div className="Login">
                 {this.state.isSignedin ? (
                     <span>
-                        <Router>
                             <div>
+                                
                                 <Switch>
-                                    <Route exact path='/home' component={Home} />
+                                    <Route path='/' exact strict render ={()=>
+                                    (this.state.isSignedin= <Redirect to="/home" />)}/>
                                 </Switch>
                             </div>
-                        </Router>
-                        <div>
+                        {/* this.state.redirect && redirect push to({pathname: "/home" , data:this.state.redirect}) />*/}
 
-                            <h2>Signed In!</h2></div>
+                            <h2>Signed In!</h2>
                         <button onClick={() => firebase.auth().signOut()} type="button" class="btn btn-warning btn-lg btn-block"><h3>Sign Out Click Here!</h3></button>
 
                         <br></br>
@@ -73,11 +74,12 @@ class Login extends Component {
 
                     </span>
                 ) : (
-                        <StyledFirebaseAuth
-                            uiConfig={this.uiConfig}
-                            firebaseAuth={firebase.auth()} />
+                    <StyledFirebaseAuth
+                    uiConfig={this.uiConfig}
+                    firebaseAuth={firebase.auth()} />
                     )}
             </div>
+        </Router>
         )
     }
 }

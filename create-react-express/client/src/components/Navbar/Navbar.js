@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import { Link } from 'react-router-dom';
 import "./Navbar.css";
 //import logo from '../../img/brand.png';
+import * as firebase from "../../../node_modules/firebase"
+
 
 
 // depending on the current path, this component sets the "active" class on the appropriate navigation link item
@@ -31,6 +33,11 @@ function Navbar (props) {
                                 Log in
                             </button>
                         </li>
+                        <li class="nav-item">
+                            <button onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                Sign out
+                            </button>
+                        </li>
                       
                         <li class="nav-item">
                            
@@ -40,7 +47,7 @@ function Navbar (props) {
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <div id="welcomeText"></div>
+                        <div id="welcomeText"><h1>{sessionStorage.getItem("freelancerName")}</h1><img src={sessionStorage.getItem("freelancerPic")} width="50px" height="50px"/></div>
                     </form>
                 </div>
                 </div>
