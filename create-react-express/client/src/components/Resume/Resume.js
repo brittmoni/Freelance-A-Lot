@@ -9,7 +9,9 @@ const Resume = () => {
     return (
         <div className={styles.uicontainer}>
             <div className='navbar'>
-                <Navbar />
+            <div className={styles.navbar}>
+            <Navbar />
+            </div>
             </div>
             <div className='card'>
                 <div className={styles.card}>
