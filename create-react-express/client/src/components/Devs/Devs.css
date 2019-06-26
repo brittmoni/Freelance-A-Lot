@@ -26,6 +26,11 @@ float: left;
 padding-bottom: 0px;
 
 }    
+.profile-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 .cardphoto {
     width: 100px;
     display: block;
