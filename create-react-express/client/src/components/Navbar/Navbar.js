@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "./Navbar.css";
 //import logo from '../../img/brand.png';
 import * as firebase from "../../../node_modules/firebase"
+// import firebase from 'firebase';
 
 
 
@@ -44,14 +45,6 @@ function Navbar(props) {
                             <button onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                 Sign out
                             </button>
-                        </li>
-                      
-                        <li class="nav-item">
-                           
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#PJ">
-                                <a href='/postjob'>Post Job</a>
-                            </button>
-
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">

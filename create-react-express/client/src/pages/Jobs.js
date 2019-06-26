@@ -33,14 +33,12 @@ class Jobs extends Component {
           <List>
             {this.state.job.map(job => (
               <ListItem key={job._id}>
-                <a href={'/jobs/' + job._id}>
                   <h2>
                     {job.name}
                   </h2>
                   <p>
                     {job.description}
                   </p>
-                </a>
               </ListItem>
             ))}
           </List>
