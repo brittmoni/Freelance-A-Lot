@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import { Link } from 'react-router-dom';
 import "./Navbar.css";
 //import logo from '../../img/brand.png';
-import * as firebase from "../../../node_modules/firebase"
-// import firebase from 'firebase';
+// import * as firebase from "../../../node_modules/firebase"
+import firebase from 'firebase';
 
 
 
