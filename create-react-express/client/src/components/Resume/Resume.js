@@ -13,21 +13,21 @@ const Resume = () => {
             <Navbar />
             </div>
             </div>
-            <div className='card'>
+            <div className='profile-card'>
                 <div className={styles.card}>
-                    <img class="card-img-top" src={faker.image.avatar()} alt="avatar"/> 
-                        <div class="card-body">
-                            <h5 class="card-title">Profile</h5>
-                            <p class="card-text">Name</p>
-                            <p class="card-text">Title</p>
+                    <img className="card-img-top rounded-circle z-depth-2" src={faker.image.avatar()} alt="avatar"/> 
+                        <div className="card-body">
+                            <h5 className="card-title">Profile</h5>
+                            <p className="card-text">Name</p>
+                            <p className="card-text">Title</p>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Skills</li>
-                            <li class="list-group-item">Currently working</li>
-                            <li class="list-group-item">Contact informatiom</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">Skills</li>
+                            <li className="list-group-item">Work</li>
+                            <li className="list-group-item">Contact informatiom</li>
                         </ul>
-                        <div class="card-body">
-                        <a href="#" class="btn btn-primary">Contact</a>                        </div>
+                        <div className="card-body">
+                        <a href="#" className="btn btn-primary">Contact</a>                        </div>
 </div>
                 </div>
             </div>
