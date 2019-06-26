@@ -12,13 +12,16 @@ router.get('/jobs', function(req, res) {
 })
 
 router.post('/postjob', function(req, res) {
-  let job = new Jobs(req.body);
+  let job = new Jobs({
+    name: req.body.name,
+    description: req.body.description
+  });
   job.save()
     .then(job => {
       res.status(200).json({job: 'Job added successfully'});
     })
     .catch(err => {
-      res.status(400).send('Could not add job');
+      console.log(err);
     })
 });
 

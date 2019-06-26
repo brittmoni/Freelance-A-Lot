@@ -35,10 +35,11 @@ class Post extends Component {
       name: this.state.name,
       description: this.state.description
     }
-    axios.post('/postjob', newPost)
-      .then(newPost => console.log(newPost));
 
     console.log(newPost);
+    
+    axios.post('/postjob', newPost)
+      .then(newPost => console.log(newPost));
     
     this.setState({
       name: '',
