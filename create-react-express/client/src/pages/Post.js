@@ -45,6 +45,8 @@ class Post extends Component {
       name: '',
       description: ''
     })
+
+    alert('Job added successfully!');
   }
 
 
