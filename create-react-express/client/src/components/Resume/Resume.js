@@ -1,98 +1,73 @@
 import React from 'react';
 import "./Resume.css";
 import faker from 'faker';
-import logo from '../../img/logo.png'
-
+import 'bootstrap/dist/css/bootstrap.css';
+import Navbar from "../Navbar/Navbar.js"
+import Footer from "../Footer/Footer.js"
 
 const Resume = () => {
     return (
         <div className="ui container comments">
+            <div>
+                <Navbar />
 
+
+            </div>
             <div class="card w-100">
 
-                <div class="card-logo">
-                <img src={logo} alt={"logo"}/> 
-                </div>
+                <div class="grid">
+                    <header>
+                        Header
+                    </header>
+                    <aside class="sidebar-left">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="/" className="avatar">
+                                        <img alt="avatar" src={faker.image.avatar()} />
+                                    </a>
 
-                <div class="card-body">
-                    <div class="container">
-
-                        <div class="row">
-
-
-                            {/* First row */}
-                            <div class="col-4">
-                                <a href="/" className="avatar">
-                                    <img alt="avatar" src={faker.image.avatar()} />
-                                </a>
-
-                                <div className="ranking">
-
-
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col">
-                                                Work
-                                                <hr/>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
-
-                                <div className="row">
-
-                                    <div className="ranking">
-                                        Skills
-                                    <hr />
-                                    </div>
-                                </div>
-
-                            </div>
-                            {/* Second row */}
-                            <div class="col-8">
-
-
-                                <div className="ranking">
-                                    Name
-                                 </div>
-
-
-
-                                <span classname="date">
-                                    Job Title
-                                 </span>
-                                <hr />
-
-
-
-                                <div className="ranking">
-                                    Ranking
-                        </div>
-                                <hr />
-                                <a href="#" class="btn btn-primary">Contact</a>
-                                <a href="#" class="btn btn-primary">Connect</a>
-
-                                <hr />
-                                <div className="ranking">
-
-                                    Contact Information
-                        </div>
-                                <hr />
-                                <div className="ranking">
-
-                                    Basic Information
-                    </div>
-                                <hr />
-
-
+                                <div class="col">Work</div>
+                                <div class="w-100"></div>
+                                <div class="col">Skills</div>
                             </div>
                         </div>
-                    </div>
+                    </aside>
 
-                    <div className="resume container">
-                    </div>
+                    <article>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">Name</div>
+                                <div class="col">Column2</div>
+                                <div class="w-100"></div>
+                                <div class="col">Title</div>
+                                <div class="col">Column4</div>
+                                <div class="w-100"></div>
+                                <div class="col"><a href="#" class="btn btn-primary">Contact</a></div>
+                                <div class="col"><a href="#" class="btn btn-primary">Connect</a></div>
+                                <div class="w-100"></div>
+                                <div class="col">Contact Information</div>
+                                <div class="col">Column4</div>
+                                <div class="w-100"></div>
+                                <div class="col">Basic Information</div>
+                                <div class="col">Column4</div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <aside class="sidebar-right">
+                        Right Sidebar
+  </aside>
+
+                    <footer>
+                        Footer
+  </footer>
+
                 </div>
+
             </div>
+            <Footer/>
 
         </div>
     );
