@@ -4,76 +4,36 @@ import faker from 'faker';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from "../Navbar/Navbar.js"
 import Footer from "../Footer/Footer.js"
-
+import styles from './Resume.css'
 const Resume = () => {
     return (
-        <div className="ui container comments">
-            <div>
+        <div className={styles.uicontainer}>
+            <div className='navbar'>
                 <Navbar />
-
-
             </div>
-            <div class="card w-100">
-
-                <div class="grid">
-                    <header>
-                        Header
-                    </header>
-                    <aside class="sidebar-left">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">
-                                    <a href="/" className="avatar">
-                                        <img alt="avatar" src={faker.image.avatar()} />
-                                    </a>
-
-                                </div>
-                                <div class="col">Work</div>
-                                <div class="w-100"></div>
-                                <div class="col">Skills</div>
-                            </div>
+            <div className='card'>
+                <div className={styles.card}>
+                    <img class="card-img-top" src={faker.image.avatar()} alt="avatar"/> 
+                        <div class="card-body">
+                            <h5 class="card-title">Profile</h5>
+                            <p class="card-text">Name</p>
+                            <p class="card-text">Title</p>
                         </div>
-                    </aside>
-
-                    <article>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col">Name</div>
-                                <div class="col">Column2</div>
-                                <div class="w-100"></div>
-                                <div class="col">Title</div>
-                                <div class="col">Column4</div>
-                                <div class="w-100"></div>
-                                <div class="col"><a href="#" class="btn btn-primary">Contact</a></div>
-                                <div class="col"><a href="#" class="btn btn-primary">Connect</a></div>
-                                <div class="w-100"></div>
-                                <div class="col">Contact Information</div>
-                                <div class="col">Column4</div>
-                                <div class="w-100"></div>
-                                <div class="col">Basic Information</div>
-                                <div class="col">Column4</div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <aside class="sidebar-right">
-                        Right Sidebar
-  </aside>
-
-                    <footer>
-                        Footer
-  </footer>
-
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Skills</li>
+                            <li class="list-group-item">Currently working</li>
+                            <li class="list-group-item">Contact informatiom</li>
+                        </ul>
+                        <div class="card-body">
+                        <a href="#" class="btn btn-primary">Contact</a>                        </div>
+</div>
                 </div>
-
             </div>
-            <Footer/>
-
-        </div>
-    );
-};
-
-
-
-export default Resume;
-
+            );
+        };
+        
+        
+        
+        export default Resume;
+        
+        
