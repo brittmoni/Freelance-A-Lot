@@ -6,7 +6,6 @@ import Jobs from './pages/Jobs';
 import Post from './pages/Post';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
-import Navbar from './components/Navbar/Navbar'
 
 class App extends Component {
   render() {

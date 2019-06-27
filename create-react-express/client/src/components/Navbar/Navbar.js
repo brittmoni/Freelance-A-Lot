@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import { Link } from 'react-router-dom';
 import "./Navbar.css";
 //import logo from '../../img/brand.png';
-import * as firebase from "../../../node_modules/firebase"
+import * as firebase from "../../../../node_modules/firebase"
 import Login from "../../pages/Login"
 import { BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
 
@@ -46,14 +46,6 @@ function Navbar(props) {
                                 Sign out
                                ) {/* href={<Link to = "Login" />} for direct path back to sign in */}
                             </button>
-                        </li>
-                      
-                        <li class="nav-item">
-                           
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#PJ">
-                                <a href='/postjob'>Post Job</a>
-                            </button>
-
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">

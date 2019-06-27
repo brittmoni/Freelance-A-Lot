@@ -1,7 +1,9 @@
-import React, { Component } from '../../node_modules/react'
+import React, { Component } from 'react'
 import "../App.css"
-import * as firebase from "../../node_modules/firebase"
-import StyledFirebaseAuth from "../../node_modules/react-firebaseui/StyledFirebaseAuth"
+import * as firebase from "../../../node_modules/firebase"
+// import firebase from 'firebase'
+import StyledFirebaseAuth from "../../../node_modules/react-firebaseui/StyledFirebaseAuth"
+// import StyledFirebaseAuth from 'react-firebaseui'
 import { BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 import Home from "./Home"
 firebase.initializeApp({
@@ -51,7 +53,7 @@ class Login extends Component {
     }
     render() {
         return (
-                <Router>
+          <Router>
             <div className="Login">
                 {this.state.isSignedin ? (
                     <span>
@@ -85,5 +87,5 @@ class Login extends Component {
         )
     }
 }
-console.log(Login)
+// console.log(Login)
 export default Login;
