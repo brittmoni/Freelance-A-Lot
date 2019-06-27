@@ -9,9 +9,9 @@ import { BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
 
 
 // depending on the current path, this component sets the "active" class on the appropriate navigation link item
-function Navbar (props) {
+function Navbar(props) {
     return (
-<div className="navbar navbar-expand-lg navbar-light fixed-top animated fadeIn delay-1s">
+        <div className="navbar navbar-expand-lg navbar-light fixed-top animated fadeIn delay-1s">
             <div class="container">
                 <div className="navbar-brand"><img src="https://i.imgur.com/xzUGBaC.jpg" className="brand" alt="Logo" /> </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -22,18 +22,25 @@ function Navbar (props) {
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#HowItWorks">How it works
-                                <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#SignUp">Sign up</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/jobs">Find Jobs</a>
                         </li>
-                    
-                        <li class="nav-item">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+
+                        <li class="nav-item active">
+                            <a className="nav-link" href="/login">
                                 Log in
-                            </button>
+                            </a>
                         </li>
+
+
+                        <li class="nav-item active">
+                            <a className="nav-link" href="/postjob">
+                                Post Job
+                            </a>
+                        </li>
+
                         <li class="nav-item">
                             <button onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal"  data-target="#exampleModal">
                                 Sign out
@@ -46,14 +53,15 @@ function Navbar (props) {
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#PJ">
                                 <a href='/postjob'>Post Job</a>
                             </button>
+
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <div id="welcomeText"><h2>{"Welcome " + sessionStorage.getItem("freelancerName")}  <img src={sessionStorage.getItem("freelancerPic")}width="50px" height="50px"/></h2></div>
                     </form>
                 </div>
-                </div>
+            </div>
         </div>
-         );
-        }
+    );
+}
 export default Navbar;
