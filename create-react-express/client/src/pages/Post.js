@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import api from '../utils/api';
 import 'bootstrap/dist/css/bootstrap.css';
+import Navbar from '../components/Navbar/Navbar';
 
 import axios from 'axios';
 
@@ -52,24 +53,28 @@ class Post extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onSubmit}>
-        <label>
-          Job Title
-          <input 
-            type='text' 
-            className='job-title' 
-            value={this.state.name} 
-            onChange={this.onChangeName} />
-        </label>
-        <label>
-          Job Description
-          <textarea 
-            className='job-description'
-            value={this.state.description}
-            onChange={this.onChangeDescription} />
-        </label>
-        <input type='submit' value='Submit' />
-      </form>
+      <div>
+        <Navbar>
+        </Navbar>
+        <form onSubmit={this.onSubmit}>
+          <label>
+            Job Title
+            <input 
+              type='text' 
+              className='job-title' 
+              value={this.state.name} 
+              onChange={this.onChangeName} />
+          </label>
+          <label>
+            Job Description
+            <textarea 
+              className='job-description'
+              value={this.state.description}
+              onChange={this.onChangeDescription} />
+          </label>
+          <input type='submit' value='Submit' />
+        </form>
+      </div>
     )
   }
 }

@@ -4,9 +4,8 @@ import * as firebase from "../../../node_modules/firebase"
 // import firebase from 'firebase'
 import StyledFirebaseAuth from "../../../node_modules/react-firebaseui/StyledFirebaseAuth"
 // import StyledFirebaseAuth from 'react-firebaseui'
-import Home from './Home';
 import { BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
-
+import Home from "./Home"
 firebase.initializeApp({
     apiKey: "AIzaSyBvGIfOnVpnpqWsTh1GKZEj9lkUPdR9bMc",
     authDomain: "freelance-a-lot-978be.firebaseapp.com"
@@ -63,16 +62,19 @@ class Login extends Component {
                                 <Switch>
                                     <Route path='/' exact strict render ={()=>
                                     (this.state.isSignedin= <Redirect to="/home" />)}/>
+                                    ReactDOM.render(
+                                        <Home />
+                                    )
                                 </Switch>
                             </div>
                         {/* this.state.redirect && redirect push to({pathname: "/home" , data:this.state.redirect}) />*/}
+// {/* 
+//                             <h2>Signed In!</h2>
+//                         <button onClick={() => firebase.auth().signOut()} type="button" class="btn btn-warning btn-lg btn-block"><h3>Sign Out Click Here!</h3></button>
 
-                            <h2>Signed In!</h2>
-                        <button onClick={() => firebase.auth().signOut()} type="button" class="btn btn-warning btn-lg btn-block"><h3>Sign Out Click Here!</h3></button>
-
-                        <br></br>
-                        <h1>Welcome {this.state.userName}</h1>
-                        <img alt="selfie" src={this.state.profilePic} />
+//                         <br></br>
+//                         <h1>Welcome {this.state.userName}</h1>
+//                         <img alt="selfie" src={this.state.profilePic} /> */}
 
                     </span>
                 ) : (
