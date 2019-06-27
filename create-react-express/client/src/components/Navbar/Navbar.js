@@ -3,9 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import { Link } from 'react-router-dom';
 import "./Navbar.css";
 //import logo from '../../img/brand.png';
-import * as firebase from "../../../node_modules/firebase"
-
-
+// import firebase from 'firebase'
+import * as firebase from "../../../../node_modules/firebase"
 
 // depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar(props) {

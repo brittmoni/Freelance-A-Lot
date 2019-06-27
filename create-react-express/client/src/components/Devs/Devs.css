@@ -30,6 +30,7 @@ padding-bottom: 0px;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-top: 40px;
 }
 .cardphoto {
     width: 100px;

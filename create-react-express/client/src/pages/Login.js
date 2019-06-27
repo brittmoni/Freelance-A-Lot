@@ -1,7 +1,7 @@
 import React, { Component } from '../../node_modules/react'
 import "../App.css"
-import * as firebase from "../../node_modules/firebase"
-import StyledFirebaseAuth from "../../node_modules/react-firebaseui/StyledFirebaseAuth"
+import * as firebase from "../../../node_modules/firebase"
+import StyledFirebaseAuth from "../../../node_modules/react-firebaseui/StyledFirebaseAuth"
 import Home from './Home';
 import { BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 

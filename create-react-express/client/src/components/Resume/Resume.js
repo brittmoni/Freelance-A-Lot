@@ -17,7 +17,7 @@ const Resume = () => {
                 <div className={styles.card}>
                     <img className="card-img-top rounded-circle z-depth-2" src={faker.image.avatar()} alt="avatar"/> 
                         <div className="card-body">
-                            <h5 className="card-title">Profile</h5>
+                            <h5 className="card-title">Name</h5>
                             <p className="card-text">Name</p>
                             <p className="card-text">Title</p>
                         </div>
