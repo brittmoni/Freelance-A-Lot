@@ -3,8 +3,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import { Link } from 'react-router-dom';
 import "./Navbar.css";
 //import logo from '../../img/brand.png';
-// import firebase from 'firebase'
 import * as firebase from "../../../../node_modules/firebase"
+import Login from "../../pages/Login"
+import { BrowserRouter as Router, Link, Route, Switch} from "react-router-dom";
+
 
 // depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar(props) {
@@ -40,21 +42,14 @@ function Navbar(props) {
                         </li>
 
                         <li class="nav-item">
-                            <button onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            <button onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal"  data-target="#exampleModal">
                                 Sign out
+                               ) {/* href={<Link to = "Login" />} for direct path back to sign in */}
                             </button>
-                        </li>
-                      
-                        <li class="nav-item">
-                           
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#PJ">
-                                <a href='/postjob'>Post Job</a>
-                            </button>
-
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <div id="welcomeText"><h1>{sessionStorage.getItem("freelancerName")}</h1><img src={sessionStorage.getItem("freelancerPic")} width="50px" height="50px"/></div>
+                        <div id="welcomeText"><h2>{"Welcome " + sessionStorage.getItem("freelancerName")}  <img src={sessionStorage.getItem("freelancerPic")}width="50px" height="50px"/></h2></div>
                     </form>
                 </div>
             </div>

@@ -8,7 +8,7 @@ import Footer from "../components/Footer/Footer";
 
 class Jobs extends Component {
   state = {
-    jobs: []
+    job: []
   };
 
   componentDidMount() {
@@ -17,7 +17,7 @@ class Jobs extends Component {
 
   showJobs = () => {
     api.allJobs()
-      .then(res => this.setState({ jobs: res.data}))
+      .then(res => this.setState({ job: res.data}))
       .catch(err => console.log(err));
   }
 
@@ -27,20 +27,18 @@ class Jobs extends Component {
         <Navbar/>
         <Header className="animated fadeIn delay-3s" backgroundImage="https://i.imgur.com/FreU70c.jpg">
         <div className="animated bounceInUp"><h1>Freelance-A-Lot®</h1></div>
-      </Header>>
+      </Header>
         <h1>Find Your Next Job</h1>
-        {this.state.jobs.length ? (
+        {this.state.job.length ? (
           <List>
-            {this.state.jobs.map(job => (
+            {this.state.job.map(job => (
               <ListItem key={job._id}>
-                <a href={'/jobs/' + job._id}>
                   <h2>
                     {job.name}
                   </h2>
                   <p>
                     {job.description}
                   </p>
-                </a>
               </ListItem>
             ))}
           </List>
