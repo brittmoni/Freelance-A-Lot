@@ -20,9 +20,11 @@
   },
   "dependencies": {
     "axios": "^0.19.0",
+    "babel": "^6.23.0",
     "boostrap": "^2.0.0",
     "express": "^4.16.3",
-    "firebase": "^6.2.2",
+    "faker": "^4.1.0",
+    "firebase": "^4.3.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.6.0",
     "react": "^16.8.6",
