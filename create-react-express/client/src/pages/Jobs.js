@@ -28,7 +28,7 @@ class Jobs extends Component {
         <Header className="animated fadeIn delay-3s" backgroundImage="https://i.imgur.com/FreU70c.jpg">
         <div className="animated bounceInUp"><h1>Freelance-A-Lot®</h1></div>
       </Header>
-        <h1>Find Your Next Job</h1>
+        <h1>Find Your Next Job Here!</h1>
         {this.state.job.length ? (
           <List>
             {this.state.job.map(job => (
