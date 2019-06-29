@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import "./Devs.css";
 import {Animated} from "react-animated-css";
+import {Link} from "react-router-dom";
 
 function Devs (props) {
     return (
@@ -26,7 +27,8 @@ function Devs (props) {
       </Card.Text>
                 </Card.Body>
                 <Card.Footer id="cardfooter">
-                    <small className="text">placeholder for url to profile</small>
+                    <small className="text">
+                    <Link className="profile-link" to="/profile">Annabella's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInLeft delay-5s">
@@ -43,8 +45,8 @@ function Devs (props) {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer id="cardfooter">
-                    {/* <small className="text">placeholder for url to profile</small> */}
-                    <a href='/profile'>Brittany's Profile</a>
+                    <small className="text">
+                    <Link className="profile-link" to="/profile">Brittany's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
             <Card>
@@ -61,7 +63,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <a href="https://www.upwork.com/freelancers/~0141ca93fedd35a1f1">Nygel's website</a></small>
+                    <Link className="profile-link" to="/profile">Nygel's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInRight delay-5s">
@@ -79,7 +81,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <a href="https://omnipresent-tanya.netlify.com/">Tanya's Portfolio</a></small>
+                    <Link className="profile-link" to="/profile">Tanya's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
 
@@ -94,9 +96,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <a href="https://tfaouz.github.io/Updated-Profile/dist/index.html">
-                    Thibault's Portfolio</a>
-                    </small>
+                    <Link className="profile-link" to="/profile">Thibault's's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
         </CardDeck>
