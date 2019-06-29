@@ -13,7 +13,7 @@ function Navbar(props) {
     return (
         <div className="navbar navbar-expand-lg navbar-light fixed-top animated fadeIn delay-1s">
             <div class="container">
-                <div className="navbar-brand"><img src="https://i.imgur.com/xzUGBaC.jpg" className="brand" alt="Logo" /> </div>
+                <div className="navbar-brand"><a href="/home"><img src="https://i.imgur.com/xzUGBaC.jpg" className="brand" alt="Logo" /></a> </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
