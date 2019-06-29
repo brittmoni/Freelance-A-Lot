@@ -21,15 +21,15 @@ function Navbar(props) {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#HowItWorks">Find Jobs
+                            <a class="nav-link" href="/jobs">Find Jobs
                             </a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="/jobs">Log In</a>
+                            <a class="nav-link" href="/">Log In</a>
                         </li>
 
                         <li class="nav-item active">
-                            <a className="nav-link" href="/">
+                            <a className="nav-link" href="/postjob">
                                 Post Job
                             </a>
                         </li>

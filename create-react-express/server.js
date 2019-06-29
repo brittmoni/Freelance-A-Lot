@@ -13,9 +13,9 @@ console.log(PORT);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // Serve up static assets (usually on heroku)
-// if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "client/build")));
-// }
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 app.use('/', router);
 
@@ -24,7 +24,7 @@ app.use(function(req, res) {
   res.end(JSON.stringify(req.body, null, 2))
 })
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/freelance-a-lot', { useNewUrlParser:true })
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://user:password123@ds019076.mlab.com:19076/heroku_336zshph', { useNewUrlParser:true })
   .then(() => console.log('Connected to database'))
   .catch(err => console.log(err));
 
