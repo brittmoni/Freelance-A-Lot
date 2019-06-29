@@ -8,6 +8,7 @@ function Profile() {
   return (
     <div>
       <Resume/>
+      <Footer/>
     </div>
   )
 }

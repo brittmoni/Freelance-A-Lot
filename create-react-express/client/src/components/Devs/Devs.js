@@ -43,7 +43,8 @@ function Devs (props) {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer id="cardfooter">
-                    <small className="text">placeholder for url to profile</small>
+                    {/* <small className="text">placeholder for url to profile</small> */}
+                    <a href='/profile'>Brittany's Profile</a>
                 </Card.Footer>
             </Card>
             <Card>
