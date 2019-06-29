@@ -24,7 +24,11 @@
     "boostrap": "^2.0.0",
     "express": "^4.16.3",
     "faker": "^4.1.0",
+<<<<<<< HEAD
     "firebase": "^5.8.1",
+=======
+    "firebase": "^6.2.4",
+>>>>>>> 68a87e68e29d2d6d636dc549d1bfe54fadaf11c1
     "if-env": "^1.0.4",
     "mongoose": "^5.6.0",
     "react": "^16.8.6",
