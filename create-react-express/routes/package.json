@@ -1,0 +1,22 @@
+{
+  "name": "routes",
+  "version": "1.0.0",
+  "description": "freelance a lot app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittmoni/Freelance-A-Lot.git"
+  },
+  "keywords": [
+    "freelance"
+  ],
+  "author": "Codevengers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittmoni/Freelance-A-Lot/issues"
+  },
+  "homepage": "https://github.com/brittmoni/Freelance-A-Lot#readme"
+}
