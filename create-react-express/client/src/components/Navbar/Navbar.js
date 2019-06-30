@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 //import { Link } from 'react-router-dom';
 import "./Navbar.css";
 //import logo from '../../img/brand.png';
-import * as firebase from "../../../../node_modules/firebase"
+import * as firebase from "firebase"
 import Login from "../../pages/Login"
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 
@@ -20,15 +20,12 @@ function Navbar(props) {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                      
                         <li class="nav-item active">
-                            <a class="nav-link" href="/jobs">Find Jobs</a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a className="nav-link" href="/">
-                                Log in
+                            <a class="nav-link" href="/jobs">Find Jobs
                             </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Log In</a>
                         </li>
 
                         <li class="nav-item active">
@@ -36,15 +33,19 @@ function Navbar(props) {
                                 Post Job
                             </a>
                         </li>
+
+                        <li class="nav-item active">
+                            <a className="nav-link" href="/postjob">
+                                Profile
+                            </a>
+                        </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="/Profile">Profile
                             </a>
                         </li>
                         <li class="nav-item">
-                            <button onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                Sign out
-                                {/* href={<Link to = "Login" />} for direct path back to sign in */}
-                            </button>
+                            <a className="signOutButton" href="/"onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" text="Sign Out">Sign Out</a> 
+
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
