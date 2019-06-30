@@ -17,7 +17,7 @@ const Resume = () => {
                 <div className={styles.card}>
                 <img className="card-img-top rounded-circle z-depth-2" src="https://i.imgur.com/4B7oHwK.jpg"/> 
                         <div className="card-body">
-                            <h5 className="card-title">Nygel</h5>
+                            <h5 className="card-title"></h5>
                             <p className="card-text">Name</p>
                             <p className="card-text">Title</p>
                         </div>
