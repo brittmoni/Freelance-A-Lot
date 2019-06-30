@@ -28,7 +28,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profileannabella">Annabella's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profileAnnabella">Annabella's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInLeft delay-5s">
@@ -46,7 +46,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profilebrittany">Brittany's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profileBrittany">Brittany's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
             <Card>
@@ -63,7 +63,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profilenygel">Nygel's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profileNygel">Nygel's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInRight delay-5s">
@@ -81,7 +81,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profiletanya">Tanya's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profileTanya">Tanya's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
 
@@ -96,7 +96,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profilethibault">Thibault's's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profileThibault">Thibault's's Portfolio</Link></small>
                 </Card.Footer>
             </Card>
         </CardDeck>
