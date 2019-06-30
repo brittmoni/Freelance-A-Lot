@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from "../components/Navbar/Navbar";
+// import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer/Footer"
 import ResumeTanya from'../components/Resume/ResumeTanya.js'
 
@@ -14,5 +14,3 @@ function ProfileTanya() {
 }
 
 export default ProfileTanya;
-
-

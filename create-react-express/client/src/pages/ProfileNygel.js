@@ -14,5 +14,3 @@ function ProfileNygel() {
 }
 
 export default ProfileNygel;
-
-
