@@ -34,17 +34,27 @@ function Navbar(props) {
                             </a>
                         </li>
 
-                       
-
                         <li class="nav-item active">
                             <a className="nav-link" href="/postjob">
                                 Profile
                             </a>
                         </li>
-
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Profile">Profile
+                            </a>
+                        </li>
+<<<<<<< HEAD:create-react-express/src/components/Navbar/Navbar.js
+                    
+                        <li class="nav-item">
+                            <button onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal"  data-target="#exampleModal">
+                                Sign out
+                         {/* href={<Link to = "Login" />} for direct path back to sign in */}
+                            </button>
+=======
                         <li class="nav-item">
                             <a className="signOutButton" href="/"onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" text="Sign Out">Sign Out</a> 
 
+>>>>>>> master:create-react-express/client/src/components/Navbar/Navbar.js
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
