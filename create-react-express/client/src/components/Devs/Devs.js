@@ -19,16 +19,24 @@ function Devs (props) {
                 <Card.Body>
                     <Card.Title>Annabella W.</Card.Title>
                     <Card.Text>
-                    I'm a creative developer who can take your project idea from scratch and build out a beautiful
-                                    and modern interface that gets results. Whatever the project, my goal is to leave your
-                                    users with the best first impression possible. As a designer, I am here to bring your
-                                    ideas to life. My main focus is to create unique and expressive products that are easy-to-use
-                                    and understand. My favorite tools for the job are Adobe XD, Photoshop, and Illustrator.
-      </Card.Text>
+                    <h3> 
+                        Expert WordPress Developer
+                    </h3>
+                    <h2>
+                        $97/hr Charlotte, NC
+                    </h2>
+                    <hr/>
+                    <h4>
+                    <button type="button" class="btn btn-default">WordPress</button>
+                    <button type="button" class="btn btn-default">HTML5</button>
+                    <button type="button" class="btn btn-default">HTML</button>
+                    <button type="button" class="btn btn-default">CSS</button>
+                    </h4>
+                    </Card.Text>
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profileannabella">Annabella's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profileannabella">View Profile</Link></small>
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInLeft delay-5s">
@@ -36,34 +44,47 @@ function Devs (props) {
                 <Card.Body>
                     <Card.Title>Brittany F.</Card.Title>
                     <Card.Text>
-                    I am a full stack web developer with years of experience designing, developing, and
-                                    maintaining web applications on the cloud.
-                                    I specialize in Node.JS, MySQL, mongoDB, JavaScript, jQuery, Bootstrap, HTML, and CSS. I have never encountered a web development problem I couldn't solve and will always find a solution to your issue.
-                                    My primary focus is to support, service and add value to my customers. I listen and clearly understand my customers issues and technology needs.
-                                    
-        content.{' '}
+                    <h3> 
+                        Web Developer
+                    </h3>
+                    <h2>
+                        $70/hr Charlotte, NC
+                    </h2>
+                    <hr/>
+                    <h4>
+                    <button type="button" class="btn btn-default">PHP</button>
+                    <button type="button" class="btn btn-default">JavaScript</button>
+                    <button type="button" class="btn btn-default">HTML5</button>
+                    <button type="button" class="btn btn-default">Java</button>
+                    </h4>
+       
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profilebrittany">Brittany's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profilebrittany">View profile</Link></small>
                 </Card.Footer>
             </Card>
             <Card>
                 <Card.Img variant="top" src="https://i.imgur.com/4B7oHwK.jpg" />
                 <Card.Body>
                     <Card.Title>Nygel P.</Card.Title>
-                    <Card.Text>I am a Full-stack Developer. I enjoy taking complex problems and turning them
-                                    into simple and beautiful code. I love structure and logic. I have been coding around
-                                    6 years now and I never stop learning – I love it. I want to share my knowledge with
-                                    other upcoming or current developers. I am a current developer at the Digital Advertising
-                                    Agency based in Charlotte, NC. Where I spend constant hours making the internet a better
-                                    place.                  
+                    <Card.Text><h3> 
+                        Senior Mobile & Web Developer
+                    </h3>
+                    <h2>
+                        $80/hr Charlotte, NC
+                    </h2>
+                    <hr/>
+                    <h4>
+                    <button type="button" class="btn btn-default">iOS Development</button>
+                    <button type="button" class="btn btn-default">Android App Development</button>
+                    </h4>              
       </Card.Text>
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profilenygel">Nygel's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profilenygel">View Profile</Link></small>
                 </Card.Footer>
             </Card>
             <Card className="animated fadeInRight delay-5s">
@@ -81,7 +102,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profiletanya">Tanya's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profiletanya">View Profile</Link></small>
                 </Card.Footer>
             </Card>
 
@@ -96,7 +117,7 @@ function Devs (props) {
                 </Card.Body>
                 <Card.Footer id="cardfooter">
                     <small className="text">
-                    <Link className="profile-link" to="/profilethibault">Thibault's's Portfolio</Link></small>
+                    <Link className="profile-link" to="/profilethibault">View Profile</Link></small>
                 </Card.Footer>
             </Card>
         </CardDeck>

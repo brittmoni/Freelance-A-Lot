@@ -18,8 +18,8 @@ const Resume = () => {
                 <img className="card-img-top rounded-circle z-depth-2" src="https://i.imgur.com/4B7oHwK.jpg"/> 
                         <div className="card-body">
                             <h5 className="card-title"></h5>
-                            <p className="card-text">Name</p>
-                            <p className="card-text">Title</p>
+                            <p className="card-text">Nygel</p>
+                            <p className="card-text">Full-Stach developer</p>
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">Skills</li>

@@ -19,7 +19,7 @@ const ResumeBrittany = () => {
                         <div className="card-body">
                             <h5 className="card-title">Brittany</h5>
                             <p className="card-text">Name</p>
-                            <p className="card-text">Title</p>
+                            <p className="card-text">Ciber Security Architect</p>
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">Skills</li>
