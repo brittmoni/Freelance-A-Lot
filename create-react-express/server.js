@@ -24,7 +24,7 @@ app.use(function(req, res) {
   res.end(JSON.stringify(req.body, null, 2))
 })
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://user:password123@ds019076.mlab.com:19076/heroku_336zshph', { useNewUrlParser:true })
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://user:password1@ds345597.mlab.com:45597/heroku_qxhcl7kj', { useNewUrlParser:true })
   .then(() => console.log('Connected to database'))
   .catch(err => console.log(err));
 
