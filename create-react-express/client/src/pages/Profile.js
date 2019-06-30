@@ -4,10 +4,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from "../components/Footer/Footer"
 import Resume from "../components/Resume/Resume.js"
 
+
 function Profile() {
   return (
     <div>
       <Resume/>
+      <Footer/>
     </div>
   )
 }

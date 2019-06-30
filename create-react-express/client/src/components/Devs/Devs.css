@@ -25,12 +25,19 @@ margin: 10px 10px 10px 10px;
 float: left;
 padding-bottom: 0px;
 
-}    
+}  
+.card-find-jobs{
+
+margin: 90px 40px 90px 40px;
+justify-content: center;
+}  
 .profile-card {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-top: 40px;
 }
+
 .cardphoto {
     width: 100px;
     display: block;

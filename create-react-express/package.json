@@ -24,12 +24,13 @@
     "boostrap": "^2.0.0",
     "express": "^4.16.3",
     "faker": "^4.1.0",
-    "firebase": "^4.3.1",
+    "firebase": "^6.2.4",
     "if-env": "^1.0.4",
     "mongoose": "^5.6.0",
     "react": "^16.8.6",
     "react-animate-css": "0.0.1",
     "react-firebaseui": "^3.1.2",
+    "react-router": "^5.0.1",
     "react-router-dom": "^4.3.1"
   }
 }

@@ -5,7 +5,7 @@
     align-content: center;
   }
   :local(body) {
-    background-color: #1b3c69;
+    /* background-color: #1b3c69; */
     align-items: center;
     justify-content: center;
     align-content: center;
