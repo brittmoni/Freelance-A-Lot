@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from "../Navbar/Navbar.js"
 import Footer from "../Footer/Footer.js"
 import styles from './Resume.css'
-const Resume = () => {
+const ResumeBrittany = () => {
     return (
         <div className={styles.uicontainer}>
             <div className='navbar'>
@@ -17,7 +17,7 @@ const Resume = () => {
                 <div className={styles.card}>
                 <img className="card-img-top rounded-circle z-depth-2" src="https://i.imgur.com/GnEKrY2.jpg"/> 
                         <div className="card-body">
-                            <h5 className="card-title">Name</h5>
+                            <h5 className="card-title">Brittany</h5>
                             <p className="card-text">Name</p>
                             <p className="card-text">Title</p>
                         </div>
@@ -36,6 +36,6 @@ const Resume = () => {
         
         
         
-        export default Resume;
+        export default ResumeBrittany;
         
         

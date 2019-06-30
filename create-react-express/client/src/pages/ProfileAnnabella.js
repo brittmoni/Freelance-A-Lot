@@ -2,16 +2,17 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 // import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer/Footer"
-import Resume from "../components/Resume/Resume.js"
+import ResumeAnnabella from'../components/Resume/ResumeAnnabella.js'
 
-
-function Profile() {
+function ProfileAnnabella() {
   return (
     <div>
-      <Resume/>
+      <ResumeAnnabella/>
       <Footer/>
     </div>
   )
 }
 
-export default Profile;
+export default ProfileAnnabella;
+
+

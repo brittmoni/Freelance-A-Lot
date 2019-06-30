@@ -2,16 +2,17 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 // import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer/Footer"
-import Resume from "../components/Resume/Resume.js"
+import ResumeNygel from'../components/Resume/ResumeNygel.js'
 
-
-function Profile() {
+function ProfileNygel() {
   return (
     <div>
-      <Resume/>
+      <ResumeNygel/>
       <Footer/>
     </div>
   )
 }
 
-export default Profile;
+export default ProfileNygel;
+
+
