@@ -15,16 +15,19 @@ const Resume = () => {
             </div>
             <div className='profile-card'>
                 <div className={styles.card}>
-                <img className="card-img-top rounded-circle z-depth-2" src="https://i.imgur.com/GnEKrY2.jpg"/> 
+    
+                <div id="welcomeText">
+                 <img src={sessionStorage.getItem("freelancerPic")} width="200px" height="200px" />
+                </div>
+                <h2>{sessionStorage.getItem("freelancerName")}</h2>
+
                         <div className="card-body">
-                            <h5 className="card-title">Name</h5>
-                            <p className="card-text">Name</p>
                             <p className="card-text">Title</p>
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">Skills</li>
                             <li className="list-group-item">Work</li>
-                            <li className="list-group-item">Contact informatiom</li>
+                            <li className="list-group-item">Contact information</li>
                         </ul>
                         <div className="card-body">
                         <a href="#" className="btn btn-primary">Contact</a>                        </div>
