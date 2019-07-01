@@ -3,7 +3,11 @@
 }
 .btn {
   margin-left: 10px;
+  
 }
 .brand {
   width: 140px;    
   }
+#welcomeText {
+  color: #fff;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Form.css";
 
+
 class Form extends React.Component {
     constructor(props) {
         super(props);
@@ -25,20 +26,30 @@ class Form extends React.Component {
             <h3>Sign up for free project quotes</h3>
             <hr></hr>
             <form onSubmit={this.handleSubmit}>
+
+                <div className="col-md-12">
                 <label>
                     Name:
             <input type="text" value={this.state.value} onChange={this.handleChange} />
                 </label>
+                </div>
+
+                 <div className="col-md-12">
                 <label>
                     Email:
             <input type="text" value={this.state.value} onChange={this.handleChange} />
                 </label>
-                
+                </div>
+
+                <div className="col-md-12">
                 <label>
                     Password:
             <input type="text" value={this.state.value} onChange={this.handleChange} />
                 </label>
+                </div>
+                <div className="col-md-12">
                 <input type="submit" value="Sign Up Now" />
+                </div>
             </form>
             </div>
         );}}

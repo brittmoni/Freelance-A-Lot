@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+	transform: translate(-50%, -50%);
+  
+  p {
+    margin: 0 0 20px;
+  }
+  
+}
+
+/* Arrow & Hover Animation */
+#more-arrows {
+	width: 75px;
+  height: 65px;
+  
+  &:hover {
+    
+    polygon {
+      fill: #FFF;
+      transition: all .2s ease-out;
+
+      &.arrow-bottom {
+        transform: translateY(-18px);
+      }
+
+      &.arrow-top {
+        transform: translateY(18px);
+      }
+      
+    }
+  
+  }
+  
+}
+
+polygon {
+  fill: #FFF;
+  transition: all .2s ease-out;
+
+	 
+}

@@ -38,3 +38,7 @@ color: black;
     background-color .15s ease-in-out,border-color .15s ease-in-out,
     box-shadow .15s ease-in-out;
 }
+.applyNow {
+    float: right;
+    padding: 12px;
+}

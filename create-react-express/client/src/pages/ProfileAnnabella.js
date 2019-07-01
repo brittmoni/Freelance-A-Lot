@@ -15,5 +15,3 @@ function ProfileAnnabella() {
 }
 
 export default ProfileAnnabella;
-
-
