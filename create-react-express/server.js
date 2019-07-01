@@ -12,12 +12,25 @@ console.log(PORT);
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+<<<<<<< HEAD
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
+=======
+>>>>>>> 853f2916899ab2f826aff7e7228cfd1b094dda9d
 
 app.use('/', router);
+
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+  
+  app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+  });
+
+}
 
 app.use(function(req, res) {
   res.setHeader('Content-Type', 'text/plain')
@@ -27,12 +40,6 @@ app.use(function(req, res) {
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://user:password123@ds019076.mlab.com:19076/heroku_336zshph', { useNewUrlParser:true })
   .then(() => console.log('Connected to database'))
   .catch(err => console.log(err));
-
-// Send every other request to the React app
-// Define any API routes before this runs
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
-// });
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
