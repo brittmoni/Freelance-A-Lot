@@ -37,7 +37,7 @@ function Navbar(props) {
                        
 
                         <li class="nav-item active">
-                            <a className="nav-link" href="/postjob">
+                            <a className="nav-link" href="/profile">
                                 Profile
                             </a>
                         </li>
