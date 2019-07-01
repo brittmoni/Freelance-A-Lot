@@ -22,12 +22,24 @@ const Resume = () => {
                 </div> 
                         <div className="card-body">
                             <h5 className="card-title">Thibault</h5>
-                            <p className="card-text">Title</p>
+                            <p className="card-text">API Development | Web Development | Automation | PHP & JavaScript</p>
                         </div>
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Skills</li>
-                            <li className="list-group-item">Work</li>
-                            <li className="list-group-item">Contact information</li>
+                            <li className="list-group-item">"Can't say enough good things! He went above and beyond the initial contract to get us set up and operational. Amazing work!"
+- Cameron & Meredith Herold, COO Alliance
+
+"Working with Paul was phenomenal - easily my best experience on Upwork. He really cared about the project, was very personable and available whenever we had questions or if something came up. We had many moving pieces in our project and Paul was able to quickly wrap his head around it all and get everything running smoothly. I seriously don't know how we would have survived our launch if it wasn't for Paul!"
+- Andrew Sartory, Sartory Wellness
+
+"Paul was an absolute joy to work with. He is professional, reliable and he clearly takes a great deal of pride in the quality of his work."
+- Luke Griffin </li>
+                            <li className="list-group-item">36
+Jobs
+
+
+</li>
+                            <li className="list-group-item">$70.00
+Hourly rate</li>
                         </ul>
                         <div className="card-body">
                         <a href="#" className="btn btn-primary">Contact</a>                        </div>

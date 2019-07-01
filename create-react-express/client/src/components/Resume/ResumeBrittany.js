@@ -22,13 +22,14 @@ const ResumeBrittany = () => {
                 </div>
                         <div className="card-body">
                             <h5 className="card-title">Brittany</h5>
-                           
-                            <p className="card-text">Title</p>
+                            <p className="card-text">Ciber Security Architect</p>
                         </div>
                         <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Skills</li>
-                            <li className="list-group-item">Work</li>
-                            <li className="list-group-item">Contact information</li>
+                            <li className="list-group-item">I'm a web developer with over 13 years of experience in the field. I work full time for a software company called Palo Alto Software. I've designed, developed and tested many projects. I write clean, responsive code and always hit my deadlines on time. I have experience with analytics, version control and working in a team environment. I know a plethora of computer languages and will take the time to learn a new language if needed. I'm confident, hard working and dependable. I will work around the clock until my clients are satisfied. </li>
+                            <li className="list-group-item">$40.00
+Hourly rate</li>
+                            <li className="list-group-item">$10k+
+Total earned</li>
                         </ul>
                         <div className="card-body">
                         <a href="#" className="btn btn-primary">Contact</a>                        </div>
