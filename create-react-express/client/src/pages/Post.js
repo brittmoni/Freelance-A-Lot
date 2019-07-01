@@ -56,22 +56,28 @@ class Post extends Component {
       <div>
         <Navbar>
         </Navbar>
+        <br></br>
+        <br></br>
         <form onSubmit={this.onSubmit}>
           <label>
             Job Title
+            <br></br>
             <input 
               type='text' 
               className='job-title' 
               value={this.state.name} 
               onChange={this.onChangeName} />
           </label>
+          <br></br>
           <label>
             Job Description
+            <br></br>
             <textarea 
               className='job-description'
               value={this.state.description}
               onChange={this.onChangeDescription} />
           </label>
+          <br></br>
           <input type='submit' value='Submit' />
         </form>
       </div>
