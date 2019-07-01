@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import api from '../utils/api';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from '../components/Navbar/Navbar';
-import {List, ListItem} from '../components/List';
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+
 import axios from 'axios';
 
 class Post extends Component {
@@ -58,7 +56,6 @@ class Post extends Component {
       <div>
         <Navbar>
         </Navbar>
-        <Header/>
         <form onSubmit={this.onSubmit}>
           <label>
             Job Title
@@ -77,7 +74,6 @@ class Post extends Component {
           </label>
           <input type='submit' value='Submit' />
         </form>
-        <Footer/>
       </div>
     )
   }

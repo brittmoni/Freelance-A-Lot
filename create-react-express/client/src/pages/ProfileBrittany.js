@@ -14,5 +14,3 @@ function ProfileBrittany() {
 }
 
 export default ProfileBrittany;
-
-

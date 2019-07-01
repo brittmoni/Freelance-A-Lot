@@ -37,5 +37,3 @@ const ResumeBrittany = () => {
         
         
         export default ResumeBrittany;
-        
-        
