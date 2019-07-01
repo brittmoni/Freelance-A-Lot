@@ -1,8 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-//import { Link } from 'react-router-dom';
 import "./Navbar.css";
-//import logo from '../../img/brand.png';
 import * as firebase from "firebase"
 import Login from "../../pages/Login"
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
@@ -20,6 +18,10 @@ function Navbar(props) {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                            <a class="nav-link" href="/home">Home
+                            </a>
+                        </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="/jobs">Find Jobs
                             </a>
@@ -33,23 +35,17 @@ function Navbar(props) {
                                 Post Job
                             </a>
                         </li>
-
                         <li class="nav-item active">
-                            <a className="nav-link" href="/postjob">
-                                Profile
-                            </a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/Profile">Profile
+                            <a class="nav-link" href="/profile">Profile
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a className="signOutButton" href="/"onClick={() => firebase.auth().signOut()} type="button" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" text="Sign Out">Sign Out</a> 
+                            <a className="signOutButton" href="/"onClick={() => firebase.auth().signOut()} type="button" variant="light" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" text="Sign Out">Sign Out</a> 
 
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                        <div id="welcomeText"><h2>{"Welcome " + sessionStorage.getItem("freelancerName")}  <img src={sessionStorage.getItem("freelancerPic")} width="50px" height="50px" /></h2></div>
+                        <div id="welcomeText"><h2>{"Welcome, " + sessionStorage.getItem("freelancerName")}  <img src={sessionStorage.getItem("freelancerPic")} width="50px" height="50px" /></h2></div>
                     </form>
                 </div>
             </div>
