@@ -4,7 +4,7 @@ import "./Navbar.css";
 import * as firebase from "firebase"
 import Login from "../../pages/Login"
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-
+import Button from 'react-bootstrap/Button';
 
 // depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar(props) {
@@ -39,9 +39,9 @@ function Navbar(props) {
                             <a class="nav-link" href="/profile">Profile
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a className="signOutButton" href="/"onClick={() => firebase.auth().signOut()} type="button" variant="light" id="signOut" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" text="Sign Out">Sign Out</a> 
-
+                        <li class="nav-item inactive">
+                            <Button><a href="/"onClick={() => firebase.auth().signOut()} id="signOut" data-toggle="modal" data-target="#exampleModal" text="Sign Out">Sign Out</a> 
+                            </Button>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
