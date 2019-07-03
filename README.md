@@ -3,7 +3,7 @@
 
 Final Project for UNCH2019 fullstack bootcamp.
 
-Made by:
+Made by: Tanya Odegova, Brittany Franklin, Annabella Wilkins, Nygel Portman and Thibault Faouz.
 
 
 
