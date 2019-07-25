@@ -14,5 +14,3 @@ function ProfileTanya() {
 }
 
 export default ProfileTanya;
-
-

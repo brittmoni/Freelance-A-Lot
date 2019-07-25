@@ -12,6 +12,13 @@ console.log(PORT);
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+<<<<<<< HEAD
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+=======
+>>>>>>> 853f2916899ab2f826aff7e7228cfd1b094dda9d
 
 app.use('/', router);
 
@@ -20,7 +27,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
   
   app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
   });
 
 }

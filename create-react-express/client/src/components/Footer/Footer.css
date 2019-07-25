@@ -13,6 +13,7 @@
     position: fixed-bottom;
     background-color: rgb(3, 18, 37);
     font-family: Lato, cursive;
+    position: fixed;
   }
 .card-footer {
     background-color: rgba(255, 255, 255, 0.288);
@@ -22,7 +23,7 @@
     cursor: pointer;
   }
   a:hover {
-    color: rgb(22, 69, 129)!important;
+    color:#FFF758 !important;
     cursor: pointer;
   }  
     .social {

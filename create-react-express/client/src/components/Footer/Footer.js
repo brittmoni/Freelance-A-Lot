@@ -10,13 +10,14 @@ const Footer = props =>
                     <div className="footerleft">
                         <ul className="list">
                             <li>
-                                <a href="/" target="_self">How it works</a>
+                                <a href="https://docs.google.com/presentation/d/1J0rytswFlt5qZL49qQ6kCm2LIFgzWBcc-45FozL5JXw/edit#slide=id.gc6f80d1ff_0_0" target="_self">Google Portfolio</a>
                             </li>
-                            <li>
-                                <a href="/signup/" target="_self">Sign Up</a>
+                            
+                            <li data-ng-click="feedback()">
+                                <a href="/">Log in</a>
                             </li>
                             <li data-ng-click="feedback()">
-                                <a href="javascript:">Log in</a>
+                                <a href="/profile">Sign Up</a>
                             </li>
                         </ul>
                     </div>

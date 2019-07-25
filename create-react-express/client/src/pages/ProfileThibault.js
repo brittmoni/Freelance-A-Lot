@@ -14,5 +14,3 @@ function ProfileThibault() {
 }
 
 export default ProfileThibault;
-
-
